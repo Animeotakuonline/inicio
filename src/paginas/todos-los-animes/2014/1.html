@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/estilos-acordeon.css" />
+  </head>
+
+  <body>
+    <div id="navbar-container"></div><!--barra de navegacion-->
+    <div class="container px-5 py-10 mx-auto">
+      <div class="text-center">
+        <h3
+          class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+        >
+          2014
+        </h3>
+      </div>
+    </div>
+
+    <!-- Sección de tarjetas -->
+    <section class="md:h-full flex items-center text-gray-600">
+      <div id="cardsContainer" class="container mx-auto flex flex-wrap -m-4">
+        <!-- Las tarjetas se insertarán aquí dinámicamente -->
+      </div>
+    </section>
+    <footer class="bg-gray-800 text-white py-5 mt-10">
+      <div class="container mx-auto flex justify-between items-center px-5">
+          <p class="text-sm">© 2024 Todos los derechos reservados</p>
+          <a href="../2015/12.html" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2  mt-2">página anterior</a>
+          <a href="2.html" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-2">siguiente página</a>
+      </div>
+  </footer>
+    
+    <script src="../js/2014.js" defer></script>
+    <script src="../../../../dist/navbar/nav-todos-los-animes.js"></script>
+    <script>
+      // Añade funcionalidad para mostrar/ocultar menú en pantallas pequeñas
+      document.getElementById('menuButton').addEventListener('click', function () {
+          document.getElementById('navContent').classList.toggle('hidden');
+      });
+  </script>
+  </body>
+</html>
