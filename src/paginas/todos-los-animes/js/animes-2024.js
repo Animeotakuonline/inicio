@@ -247,7 +247,7 @@ const cardsData = [
     },       
     {         
     id: "elf-san-wa-yaserarenai",       
-    imageSrc: "https://cdn.jkdesu.com/assets/images/animes/image/Elf-san-wa-Yaserarenai.jpg?raw=true",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/elf-san-wa-yaserarenai.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Elf-san wa Yaserarenai",         
@@ -255,6 +255,7 @@ const cardsData = [
     availability: "Disponible X capitulos",         
     readMoreLink: "../2024/informacion/Elf-san-wa-Yaserarenai.html",         
     num:"174",       
+    },      
     },       
     {         
     id: "na-nare-hana-nare",       
