@@ -1,7 +1,7 @@
 const cardsData = [
   {         
     id: "monogatari-series-off-monster-season",
-    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/monogatari-series-off-monster-season.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/monogatari-series-off-monster-season.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Monogatari Series: Off & Monster Season",
@@ -12,7 +12,7 @@ const cardsData = [
     },
     {
     id: "egumi-legacy",
-    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/egumi-legacy.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/egumi-legacy.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Egumi Legacy",         
@@ -23,7 +23,7 @@ const cardsData = [
     },
     {         
     id: "delicos-nursery",
-    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/delicos-nursery.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/delicos-nursery.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Delico's Nursery",
@@ -34,7 +34,7 @@ const cardsData = [
     },       
     {
     id: "sengoku-youko-senma-konton-hen",
-    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/sengoku-youko-senma-konton-hen.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/sengoku-youko-senma-konton-hen.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Sengoku Youko: Senma Konton-hen",
@@ -45,7 +45,7 @@ const cardsData = [
     },       
     {         
     id: "yami-shibai-13",
-    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/yami-shibai-13.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/yami-shibai-13.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Yami Shibai 13",
@@ -56,7 +56,7 @@ const cardsData = [
     },       
     {         
     id: "atri-my-dear-moments",       
-    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/atri-my-dear-moments.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/atri-my-dear-moments.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Atri: My Dear Moments",
@@ -67,7 +67,7 @@ const cardsData = [
     },
     {         
     id: "make-heroine-ga-oosugiru",       
-    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/make-heroine-ga-oosugiru.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/make-heroine-ga-oosugiru.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Make Heroine ga Oosugiru!",         
@@ -78,7 +78,7 @@ const cardsData = [
     },       
     {         
     id: "kinnikuman-kanpeki-chujin-shiso-hen",       
-    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kinnikuman-kanpeki-chujin-shiso-hen.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kinnikuman-kanpeki-chujin-shiso-hen.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Kinnikuman: Kanpeki Chоujin Shiso-hen",         
@@ -89,7 +89,7 @@ const cardsData = [
     },
     {         
     id: "naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka",       
-    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Naze Boku no Sekai wo Daremo Oboeteinai no ka?",         
@@ -100,7 +100,7 @@ const cardsData = [
     },       
     {         
     id: "bye-bye-earth",       
-    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/bye-bye-earth.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/bye-bye-earth.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Bye Bye, Earth",         
@@ -111,19 +111,19 @@ const cardsData = [
     },       
     {         
     id: "kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-season-ii",       
-    imageSrc: "../../img/2024/kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-season-ii.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-season-ii.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen Season II",         
     status: "Estado: ",         
     availability: "Disponible X capitulos",         
-    readMoreLink: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-season-ii.html",
+    readMoreLink: "../2024/informacion/kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-season-ii.html",
     mirando:true,      
     num:"186",       
     },       
     {         
     id: "koi-wa-futago-de-warikirenai",       
-    imageSrc: "../../img/2024/koi-wa-futago-de-warikirenai.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/koi-wa-futago-de-warikirenai.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Koi wa Futago de Warikirenai",         
@@ -134,7 +134,7 @@ const cardsData = [
     },       
     {         
     id: "isekai-shikkaku",       
-    imageSrc: "../../img/2024/isekai-shikkaku.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/isekai-shikkaku.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Isekai Shikkaku",         
@@ -145,7 +145,7 @@ const cardsData = [
     },       
     {         
     id: "katsute-mahou-shoujo-to-aku-wa-tekitai-shiteita",       
-    imageSrc: "../../img/2024/katsute-mahou-shoujo-to-aku-wa-tekitai-shiteita.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/katsute-mahou-shoujo-to-aku-wa-tekitai-shiteita.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Katsute Mahou Shoujo to Aku wa Tekitai shiteita",         
@@ -156,7 +156,7 @@ const cardsData = [
     },       
     {         
     id: "isekai-yururi-kikou-kosodateshinagara-boukensha-shimasu",       
-    imageSrc: "../../img/2024/isekai-yururi-kikou-kosodateshinagara-boukensha-shimasu.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/isekai-yururi-kikou-kosodateshinagara-boukensha-shimasu.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Isekai Yururi Kikou: Kosodateshinagara Boukensha Shimasu",         
@@ -167,7 +167,7 @@ const cardsData = [
     },       
     {         
     id: "vtuber-nandaga-haishin-kiri-wasuretara-densetsu-ni-natteta",       
-    imageSrc: "../../img/2024/vtuber-nandaga-haishin-kiri-wasuretara-densetsu-ni-natteta.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/vtuber-nandaga-haishin-kiri-wasuretara-densetsu-ni-natteta.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "VTuber Nandaga Haishin Kiri Wasuretara Densetsu ni Natteta",         
@@ -178,7 +178,7 @@ const cardsData = [
     },       
     {         
     id: "mayonaka-punch",       
-    imageSrc: "../../img/2024/mayonaka-punch.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/mayonaka-punch.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Mayonaka Punch",         
@@ -189,7 +189,7 @@ const cardsData = [
     },       
     {         
     id: "kami-no-tou-ouji-no-kikan",       
-    imageSrc: "../../img/2024/kami-no-tou-ouji-no-kikan.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kami-no-tou-ouji-no-kikan.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Kami no Tou: Ouji no Kikan",         
@@ -201,7 +201,7 @@ const cardsData = [
     },       
     {         
     id: "fairy-tail-100-nen-quest",       
-    imageSrc: "../../img/2024/fairy-tail-100-nen-quest.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/fairy-tail-100-nen-quest.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Fairy Tail: 100-nen Quest",         
@@ -213,7 +213,7 @@ const cardsData = [
     },       
     {         
     id: "shikanoko-nokonoko-koshitantan",       
-    imageSrc: "../../img/2024/shikanoko-nokonoko-koshitantan.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/shikanoko-nokonoko-koshitantan.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Shikanoko Nokonoko Koshitantan",         
@@ -225,7 +225,7 @@ const cardsData = [
     },       
     {         
     id: "shoushimin-series",       
-    imageSrc: "../../img/2024/shoushimin-series.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/shoushimin-series.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Shoushimin Series",         
@@ -236,7 +236,7 @@ const cardsData = [
     },       
     {         
     id: "tsue-to-tsurugi-no-wistoria",       
-    imageSrc: "../../img/2024/tsue-to-tsurugi-no-wistoria.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/tsue-to-tsurugi-no-wistoria.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Tsue to Tsurugi no Wistoria",         
@@ -247,7 +247,7 @@ const cardsData = [
     },       
     {         
     id: "elf-san-wa-yaserarenai",       
-    imageSrc: "../../img/2024/Elf-san-wa-Yaserarenai.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/Elf-san-wa-Yaserarenai.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Elf-san wa Yaserarenai",         
@@ -258,7 +258,7 @@ const cardsData = [
     },       
     {         
     id: "na-nare-hana-nare",       
-    imageSrc: "../../img/2024/na-nare-hana-nare.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/na-nare-hana-nare.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Na Nare Hana Nare",         
@@ -269,7 +269,7 @@ const cardsData = [
     },       
     {         
     id: "0-saiji-start-dash-monogatari",       
-    imageSrc: "../../img/2024/0-saiji-start-dash-monogatari.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/0-saiji-start-dash-monogatari.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "0-saiji Start Dash Monogatari",         
@@ -280,7 +280,7 @@ const cardsData = [
     },       
     {         
     id: "nige-jouzu-no-wakagimi",       
-    imageSrc: "../../img/2024/nige-jouzu-no-wakagimi.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/nige-jouzu-no-wakagimi.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",
     name: "Nige Jouzu no Wakagimi",         
@@ -301,7 +301,7 @@ const cardsData = [
     
     {
     id: "madougushi-dahliya-wa-utsumukanai",
-    imageSrc: "../../img/2024/madougushi-dahliya-wa-utsumukanai.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/madougushi-dahliya-wa-utsumukanai.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Madougushi Dahliya wa Utsumukanai",
@@ -312,7 +312,7 @@ const cardsData = [
     },
     {
     id: "mob-kara-hajimaru-tansaku-eiyuutan",
-    imageSrc: "../../img/2024/mob-kara-hajimaru-tansaku-eiyuutan.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/mob-kara-hajimaru-tansaku-eiyuutan.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Mob kara Hajimaru Tansaku Eiyuutan",
@@ -324,7 +324,7 @@ const cardsData = [
     },
     {
     id: "kono-sekai-wa-fukanzen-sugiru",
-    imageSrc: "../../img/2024/kono-sekai-wa-fukanzen-sugiru.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kono-sekai-wa-fukanzen-sugiru.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Kono Sekai wa Fukanzen Sugiru",
@@ -335,7 +335,7 @@ const cardsData = [
     },
     {
     id: "dungeon-no-naka-no-hito",
-    imageSrc: "../../img/2024/dungeon-no-naka-no-hito.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/dungeon-no-naka-no-hito.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Dungeon no Naka no Hito",
@@ -346,7 +346,7 @@ const cardsData = [
     },
     {
     id: "tensui-no-sakuna-hime",
-    imageSrc: "../../img/2024/tensui-no-sakuna-hime.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/tensui-no-sakuna-hime.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Tensui no Sakuna-hime",
@@ -357,7 +357,7 @@ const cardsData = [
     },
     {
     id: "grendizer-u",
-    imageSrc: "../../img/2024/grendizer-u.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/grendizer-u.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Grendizer U",
@@ -368,7 +368,7 @@ const cardsData = [
     },
     {
     id: "cardfight-vanguard-divinez-season-2",
-    imageSrc: "../../img/2024/cardfight-vanguard-divinez-season-2.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/cardfight-vanguard-divinez-season-2.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Cardfight!! Vanguard: Divinez Season 2",
@@ -379,7 +379,7 @@ const cardsData = [
     },
     {
     id: "nierautomata-ver11a-part-2",
-    imageSrc: "../../img/2024/nierautomata-ver11a-part-2.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/nierautomata-ver11a-part-2.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "NieR:Automata Ver1.1a Part 2",
@@ -391,7 +391,7 @@ const cardsData = [
     },
     {
     id: "25-jigen-no-ririsa",
-    imageSrc: "../../img/2024/25-jigen-no-ririsa.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/25-jigen-no-ririsa.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "2.5-jigen no Ririsa",
@@ -402,7 +402,7 @@ const cardsData = [
     },
     {
     id: "giji-harem",
-    imageSrc: "../../img/2024/giji-harem.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/giji-harem.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Giji Harem",
@@ -414,7 +414,7 @@ const cardsData = [
     },
     {
     id: "megami-no-cafe-terrace-2nd-season",
-    imageSrc: "../../img/2024/megami-no-caf-terrace-2nd-season.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/megami-no-caf-terrace-2nd-season.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Megami no Cafe Terrace 2nd Season",
@@ -426,7 +426,7 @@ const cardsData = [
     },
     {
     id: "senpai-wa-otokonoko",
-    imageSrc: "../../img/2024/senpai-wa-otokonoko.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/senpai-wa-otokonoko.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Senpai wa Otokonoko",
@@ -438,7 +438,7 @@ const cardsData = [
     },
     {
     id: "hazurewaku-no-joutai-ijou-skill-de-saikyou-ni-natta-ore-ga-subete-wo-juurin-suru-made",
-    imageSrc: "../../img/2024/hazurewaku-no-joutai-ijou-skill-de-saikyou-ni-natta-ore-ga-subete-wo-juurin-suru-made.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/hazurewaku-no-joutai-ijou-skill-de-saikyou-ni-natta-ore-ga-subete-wo-juurin-suru-made.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Hazurewaku no 'Joutai Ijou Skill' de Saikyou ni Natta Ore ga Subete wo Juurin suru made",
@@ -449,7 +449,7 @@ const cardsData = [
     },
     {
     id: "ore-wa-subete-wo-parry-suru-gyaku-kanchigai-no-sekai-saikyou-wa-boukensha-ni-naritai",
-    imageSrc: "../../img/2024/ore-wa-subete-wo-parry-suru-gyaku-kanchigai-no-sekai-saikyou-wa-boukensha-ni-naritai.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/ore-wa-subete-wo-parry-suru-gyaku-kanchigai-no-sekai-saikyou-wa-boukensha-ni-naritai.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Ore wa Subete wo 'Parry' suru: Gyaku Kanchigai no Sekai Saikyou wa Boukensha ni Naritai",
@@ -460,7 +460,7 @@ const cardsData = [
     },
     {
     id: "gimai-seikatsu",
-    imageSrc: "../../img/2024/gimai-seikatsu.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/gimai-seikatsu.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Gimai Seikatsu",
@@ -472,7 +472,7 @@ const cardsData = [
     },
     {
     id: "tasogare-out-focus",
-    imageSrc: "../../img/2024/tasogare-out-focus.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/tasogare-out-focus.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Tasogare Out Focus",
@@ -483,7 +483,7 @@ const cardsData = [
     },
     {
     id: "ramen-akaneko",
-    imageSrc: "../../img/2024/ramen-akaneko.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/ramen-akaneko.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Ramen Akaneko",
@@ -494,7 +494,7 @@ const cardsData = [
     },
     {
     id: "oshi-no-ko-2nd-season",
-    imageSrc: "../../img/2024/oshi-no-ko-2nd-season.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/oshi-no-ko-2nd-season.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "'Oshi no Ko' 2nd Season",
@@ -506,7 +506,7 @@ const cardsData = [
     },
     {
     id: "tokidoki-bosotto-russia-go-de-dereru-tonari-no-alya-san",
-    imageSrc: "../../img/2024/tokidoki-bosotto-russia-go-de-dereru-tonari-no-alya-san.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/tokidoki-bosotto-russia-go-de-dereru-tonari-no-alya-san.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san",
@@ -518,7 +518,7 @@ const cardsData = [
     },
     {
     id: "maougun-saikyou-no-majutsushi-wa-ningen-datta",
-    imageSrc: "../../img/2024/maougun-saikyou-no-majutsushi-wa-ningen-datta.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/maougun-saikyou-no-majutsushi-wa-ningen-datta.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Maougun Saikyou no Majutsushi wa Ningen datta",
@@ -529,7 +529,7 @@ const cardsData = [
     },
     {
     id: "tasuuketsu",
-    imageSrc: "../../img/2024/tasuuketsu.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/tasuuketsu.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Tasuuketsu",
@@ -541,7 +541,7 @@ const cardsData = [
     },
     {
     id: "boku-no-tsuma-wa-kanjou-ga-nai",
-    imageSrc: "../../img/2024/boku-no-tsuma-wa-kanjou-ga-nai.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/boku-no-tsuma-wa-kanjou-ga-nai.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Boku no Tsuma wa Kanjou ga Nai",
@@ -553,7 +553,7 @@ const cardsData = [
     },
     {
     id: "shy-2nd-season",
-    imageSrc: "../../img/2024/shy-2nd-season.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/shy-2nd-season.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Shy 2nd Season",
@@ -565,7 +565,7 @@ const cardsData = [
     },
     {
     id: "shinmai-ossan-boukensha-saikyou-party-ni-shinu-hodo-kitaerarete-muteki-ni-naru",
-    imageSrc: "../../img/2024/shinmai-ossan-boukensha-saikyou-party-ni-shinu-hodo-kitaerarete-muteki-ni-naru.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/shinmai-ossan-boukensha-saikyou-party-ni-shinu-hodo-kitaerarete-muteki-ni-naru.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Shinmai Ossan Boukensha, Saikyou Party ni Shinu hodo Kitaerarete Muteki ni Naru",
@@ -576,7 +576,7 @@ const cardsData = [
     },
     {
     id: "isekai-suicide-squad",
-    imageSrc: "../../img/2024/isekai-suicide-squad.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/isekai-suicide-squad.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Isekai Suicide Squad",
@@ -588,7 +588,7 @@ const cardsData = [
             
     {
     id: "code-geass-dakkan-no-rozé",
-    imageSrc: "../../img/2024/code-geass-dakkan-no-roz.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/code-geass-dakkan-no-roz.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Code Geass: Dakkan no Rozé",
@@ -600,7 +600,7 @@ const cardsData = [
             
     {
     id: "jin-can-wangshi",
-    imageSrc: "../../img/2024/jin-can-wangshi.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/jin-can-wangshi.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Jin Can Wangshi",
@@ -612,7 +612,7 @@ const cardsData = [
             
     {
     id: "cong-gu-huo-niao-kaishi-long-cheng-fengyun",
-    imageSrc: "../../img/2024/cong-gu-huo-niao-kaishi-long-cheng-fengyun.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/cong-gu-huo-niao-kaishi-long-cheng-fengyun.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Cong Gu Huo Niao Kaishi: Long Cheng Fengyun",
@@ -624,7 +624,7 @@ const cardsData = [
             
     {
     id: "hanma-baki-vs-kengan-ashura",
-    imageSrc: "../../img/2024/hanma-baki-vs-kengan-ashura.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/hanma-baki-vs-kengan-ashura.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Hanma Baki vs. Kengan Ashura",
@@ -636,7 +636,7 @@ const cardsData = [
             
     {
     id: "quanzhi-gaoshou-3",
-    imageSrc: "../../img/2024/quanzhi-gaoshou-3.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/quanzhi-gaoshou-3.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Quanzhi Gaoshou 3",
@@ -648,7 +648,7 @@ const cardsData = [
             
     {
     id: "huan-chong-shi",
-    imageSrc: "../../img/2024/huan-chong-shi.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/huan-chong-shi.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Huan Chong Shi",
@@ -660,7 +660,7 @@ const cardsData = [
             
     {
     id: "dead-dead-demons-dededede-destruction-ona",
-    imageSrc: "../../img/2024/dead-dead-demons-dededede-destruction-ona.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/dead-dead-demons-dededede-destruction-ona.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 24 de mayo del 2024",
     name: "Dead Dead Demons Dededede Destruction (ONA)",
@@ -672,7 +672,7 @@ const cardsData = [
             
     {
     id: "garouden-the-way-of-the-lone-wolf",
-    imageSrc: "../../img/2024/garouden-the-way-of-the-lone-wolf.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/garouden-the-way-of-the-lone-wolf.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 23 de mayo del 2024",
     name: "Garouden: The Way of the Lone Wolf",
@@ -684,7 +684,7 @@ const cardsData = [
             
     {
     id: "xiehou-ta-de-shaonu-shidai",
-    imageSrc: "../../img/2024/xiehou-ta-de-shaonu-shidai.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/xiehou-ta-de-shaonu-shidai.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 23 de mayo del 2024",
     name: "Xiehou Ta de Shaonu Shidai",
@@ -696,7 +696,7 @@ const cardsData = [
             
     {
     id: "jinwu-wei-feng-qi-jinling",
-    imageSrc: "../../img/2024/jinwu-wei-feng-qi-jinling.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/jinwu-wei-feng-qi-jinling.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 23 de mayo del 2024",
     name: "Jinwu Wei: Feng Qi Jinling",
@@ -708,7 +708,7 @@ const cardsData = [
             
     {
     id: "you-shou-yan-3rd-season",
-    imageSrc: "../../img/2024/you-shou-yan-3rd-season.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/you-shou-yan-3rd-season.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 17 de mayo del 2024",
     name: "You Shou Yan 3rd Season",
@@ -720,7 +720,7 @@ const cardsData = [
             
     {
     id:"kimetsu-no-yaiba-hashira-geiko-hen",  
-    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kimetsu-no-yaiba-hashira-geiko-hen.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kimetsu-no-yaiba-hashira-geiko-hen.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 12 de mayo del 2024",
     name: "Kimetsu no Yaiba: Hashira Geiko-hen",
@@ -733,7 +733,7 @@ const cardsData = [
             
     {
     id: "boku-no-hero-academia-7th-season",
-    imageSrc: "../../img/2024/boku-no-hero-academia-7th-season.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/boku-no-hero-academia-7th-season.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 04 de mayo del 2024",
     name: "Boku no Hero Academia 7th Season",
@@ -746,7 +746,7 @@ const cardsData = [
             
     {
     id: "jantama-kan",
-    imageSrc: "../../img/2024/jantama-kan.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/jantama-kan.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 25 de abril del 2024",
     name: "Jantama Kan",
@@ -758,7 +758,7 @@ const cardsData = [
             
     {
     id: "grimm-kumikyoku",
-    imageSrc: "../../img/2024/grimm-kumikyoku.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/grimm-kumikyoku.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 17 de abril del 2024",
     name: "Grimm Kumikyoku",
@@ -770,7 +770,7 @@ const cardsData = [
             
     {
     id: "anhe-zhuan-part-2",
-    imageSrc: "../../img/2024/anhe-zhuan-part-2.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/anhe-zhuan-part-2.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 17 de abril del 2024",
     name: "Anhe Zhuan Part 2",
@@ -782,7 +782,7 @@ const cardsData = [
             
     {
     id: "fanpai-chushihua",
-    imageSrc: "../../img/2024/fanpai-chushihua.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/fanpai-chushihua.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 13 de abril del 2024",
     name: "Fanpai Chushihua",
@@ -794,7 +794,7 @@ const cardsData = [
             
     {
     id: "kaijuu-8-gou",
-    imageSrc: "../../img/2024/kaijuu-8-gou.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kaijuu-8-gou.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 13 de abril del 2024",
     name: "Kaijuu 8-gou",
@@ -806,7 +806,7 @@ const cardsData = [
             
     {
     id: "sasayaku-you-ni-koi-wo-utau",
-    imageSrc: "../../img/2024/sasayaku-you-ni-koi-wo-utau.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/sasayaku-you-ni-koi-wo-utau.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 13 de abril del 2024",
     name: "Sasayaku You ni Koi wo Utau",
@@ -819,7 +819,7 @@ const cardsData = [
             
     {
     id: "kuroshitsuji-kishuku-gakkou-hen",
-    imageSrc: "../../img/2024/kuroshitsuji-kishuku-gakkou-hen.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kuroshitsuji-kishuku-gakkou-hen.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 13 de abril del 2024",
     name: "Kuroshitsuji: Kishuku Gakkou Hen",
@@ -831,7 +831,7 @@ const cardsData = [
     
     {
     id: "the-new-gate",
-    imageSrc: "../../img/2024/the-new-gate.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/the-new-gate.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 13 de abril del 2024",
     name: "The New Gate",
@@ -843,7 +843,7 @@ const cardsData = [
             
     {
     id: "long-zu",
-    imageSrc: "../../img/2024/long-zu.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/long-zu.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 13 de abril del 2024",
     name: "Long Zu",
@@ -855,7 +855,7 @@ const cardsData = [
             
     {
     id: "maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e-kayou-ii-part-2",
-    imageSrc: "../../img/2024/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e-kayou-ii-part-2.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e-kayou-ii-part-2.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 12 de abril del 2024",
     name: "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou II - Part 2",
@@ -869,7 +869,7 @@ const cardsData = [
     
     {
     id: "the-idolmster-shiny-colors",
-    imageSrc: "../../img/2024/the-idolmster-shiny-colors.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/the-idolmster-shiny-colors.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 12 de abril del 2024",
     name: "The iDOLM@STER Shiny Colors",
@@ -881,7 +881,7 @@ const cardsData = [
     },
     {
     id: "shadowverse-flame-arc-hen",
-    imageSrc: "../../img/2024/shadowverse-flame-arc-hen.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/shadowverse-flame-arc-hen.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 12 de abril del 2024",
     name: "Shadowverse Flame: Arc-hen",
@@ -892,7 +892,7 @@ const cardsData = [
     },
     {
     id: "kuramerukagari",
-    imageSrc: "../../img/2024/kuramerukagari.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kuramerukagari.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 12 de abril del 2024",
     name: "Kuramerukagari",
@@ -903,7 +903,7 @@ const cardsData = [
     },
     {
     id: "kurayukaba",
-    imageSrc: "../../img/2024/kurayukaba.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kurayukaba.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 12 de abril del 2024",
     name: "kurayukaba",
@@ -914,7 +914,7 @@ const cardsData = [
     },
     {
     id: "kenka-dokugaku",
-    imageSrc: "../../img/2024/kenka-dokugaku.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kenka-dokugaku.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 11 de abril del 2024",
     name: "Kenka Dokugaku",
@@ -925,7 +925,7 @@ const cardsData = [
     },
     {
     id: "seiyuu-radio-no-uraomote",
-    imageSrc: "../../img/2024/seiyuu-radio-no-uraomote.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/seiyuu-radio-no-uraomote.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 10 de abril del 2024",
     name: "Seiyuu Radio no Uraomote",
@@ -936,7 +936,7 @@ const cardsData = [
     },
     {
     id: "kono-subarashii-sekai-ni-shukufuku-wo-3",
-    imageSrc: "../../img/2024/kono-subarashii-sekai-ni-shukufuku-wo-3.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kono-subarashii-sekai-ni-shukufuku-wo-3.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 10 de abril del 2024",
     name: "Kono Subarashii Sekai ni Shukufuku wo! 3",
@@ -948,7 +948,7 @@ const cardsData = [
     },
     {
     id: "date-a-live-v",
-    imageSrc: "../../img/2024/date-a-live-v.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/date-a-live-v.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 10 de abril del 2024",
     name: "Date A Live V",
@@ -960,7 +960,7 @@ const cardsData = [
     },
     {
     id: "kaii-to-otome-to-kamikakushi",
-    imageSrc: "../../img/2024/kaii-to-otome-to-kamikakushi.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kaii-to-otome-to-kamikakushi.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 10 de abril del 2024",
     name: "Kaii to Otome to Kamikakushi",
@@ -971,7 +971,7 @@ const cardsData = [
     },
     {
     id: "xuwu-bianjing",
-    imageSrc: "../../img/2024/xuwu-bianjing.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/xuwu-bianjing.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 10 de abril del 2024",
     name: "xuwu bianjing",
@@ -982,7 +982,7 @@ const cardsData = [
     },
     {
     id: "unnamed-memory",
-    imageSrc: "../../img/2024/unnamed-memory.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/unnamed-memory.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 09 de abrl del 2024",
     name: "Unnamed: Memory",
@@ -993,7 +993,7 @@ const cardsData = [
     },
     {
     id: "boukyaku-battery-tv",
-    imageSrc: "../../img/2024/boukyaku-battery-tv.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/boukyaku-battery-tv.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 09 de abril del 2024",
     name: "Boukyaku Battery (TV)",
@@ -1005,7 +1005,7 @@ const cardsData = [
     },
     {
     id: "rinkai",
-    imageSrc: "../../img/2024/rinkai.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/rinkai.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 09 de abril del 2024",
     name: "Rinkai!",
@@ -1016,7 +1016,7 @@ const cardsData = [
     },
     {
     id: "lv2-kara-cheat-datta-motoyuusha-kouho-no-mattari-isekai-life",
-    imageSrc: "../../img/2024/lv2-kara-cheat-datta-motoyuusha-kouho-no-mattari-isekai-life.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/lv2-kara-cheat-datta-motoyuusha-kouho-no-mattari-isekai-life.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 08 de abril del 2024",
     name: "Lv2 kara Cheat datta Motoyuusha Kouho no Mattari Isekai Life",
@@ -1027,7 +1027,7 @@ const cardsData = [
     },
     {
     id: "tadaima-okaeri",
-    imageSrc: "../../img/2024/tadaima-okaeri.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/tadaima-okaeri.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 08 de abril del 2024",
     name: "Tadaima, Okaeri",
@@ -1038,7 +1038,7 @@ const cardsData = [
     },
     {
     id: "shen-zhiyi-jiao",
-    imageSrc: "../../img/2024/shen-zhiyi-jiao.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/shen-zhiyi-jiao.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 08 de abril del 2024",
     name: "Shen Zhiyi Jiao",
@@ -1049,7 +1049,7 @@ const cardsData = [
     },
     {
     id: "mushoku-tensei-ii-isekai-ittara-honki-dasu-part-2",
-    imageSrc: "../../img/2024/mushoku-tensei-ii-isekai-ittara-honki-dasu-part-2.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/mushoku-tensei-ii-isekai-ittara-honki-dasu-part-2.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 08 de abril del 2024",
     name: "Mushoku Tensei: Isekai Ittara Honki Dasu Part 2",
@@ -1061,7 +1061,7 @@ const cardsData = [
     },
     {
     id: "hibike-euphonium-3",
-    imageSrc: "../../img/2024/hibike-euphonium-3.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/hibike-euphonium-3.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 07 de abril del 2024",
     name: "Hibike! Euphonium 3",
@@ -1073,7 +1073,7 @@ const cardsData = [
     },
     {
     id: "sentai-daishikkaku",
-    imageSrc: "../../img/2024/sentai-daishikkaku.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/sentai-daishikkaku.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 07 de abril del 2024",
     name: "Sentai Daishikkaku",
@@ -1084,7 +1084,7 @@ const cardsData = [
     },
     {
     id: "yozakura-san-chi-no-daisakusen",
-    imageSrc: "../../img/2024/yozakura-san-chi-no-daisakusen.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/yozakura-san-chi-no-daisakusen.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 07 de abril del 2024",
     name: "Yozakura-san Chi no Daisakusen",
@@ -1095,7 +1095,7 @@ const cardsData = [
     },
     {
     id: "jiisan-baasan-wakagaeru",
-    imageSrc: "../../img/2024/jiisan-baasan-wakagaeru.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/jiisan-baasan-wakagaeru.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 07 de abril del 2024",
     name: "Jiisan Baasan Wakagaeru",
@@ -1106,7 +1106,7 @@ const cardsData = [
     },
     {
     id: "shinigami-bocchan-to-kuro-maid-3rd-season",
-    imageSrc: "../../img/2024/shinigami-bocchan-to-kuro-maid-3rd-season.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/shinigami-bocchan-to-kuro-maid-3rd-season.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 07 de abril del 2024",
     name: "Shinigami Bocchan to Kuro Maid 3rd Season",
@@ -1117,7 +1117,7 @@ const cardsData = [
     },
     {
     id: "tensei-kizoku-kantei-skill-de-nariagaru",
-    imageSrc: "../../img/2024/tensei-kizoku-kantei-skill-de-nariagaru.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/tensei-kizoku-kantei-skill-de-nariagaru.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 07 de abril del 2024",
     name: "Tensei Kizoku, Kantei Skill de Nariagaru",
@@ -1128,7 +1128,7 @@ const cardsData = [
     },
     {
     id: "blue-archive-the-animation",
-    imageSrc: "../../img/2024/blue-archive-the-animation.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/blue-archive-the-animation.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 07 de abril del 2024",
     name: "Blue Archive the Animation",
@@ -1140,7 +1140,7 @@ const cardsData = [
     },
     {
     id: "vampire-dormitory",
-    imageSrc: "../../img/2024/vampire-dormitory.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/vampire-dormitory.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 07 de abril del 2024",
     name: "Vampire Dormitory",
@@ -1151,7 +1151,7 @@ const cardsData = [
     },
     {
     id: "tonari-no-youkai-san",
-    imageSrc: "../../img/2024/tonari-no-youkai-san.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/tonari-no-youkai-san.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 07 de abril del 2024",
     name: "Tonari no Youkai-san",
@@ -1162,7 +1162,7 @@ const cardsData = [
     },
     {
     id: "ooi-tonbo",
-    imageSrc: "../../img/2024/ooi-tonbo.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/ooi-tonbo.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 06 de abril del 2024",
     name: "Ooi! Tonbo",
@@ -1173,7 +1173,7 @@ const cardsData = [
     },
     {
     id: "himitsu-no-aipri",
-    imageSrc: "../../img/2024/himitsu-no-aipri.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/himitsu-no-aipri.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 07 de abril del 2024",
     name: "Himitsu no AiPri",
@@ -1195,7 +1195,7 @@ const cardsData = [
     },
     {
     id: "yoru-no-kurage-wa-oyogenai",
-    imageSrc: "../../img/2024/yoru-no-kurage-wa-oyogenai.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/yoru-no-kurage-wa-oyogenai.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 07 de abril del 2024",
     name: "Yoru no Kurage wa Oyogenai",
@@ -1206,7 +1206,7 @@ const cardsData = [
     },
     {
     id: "the-fable",
-    imageSrc: "../../img/2024/the-fable.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/the-fable.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 07 de abril del 2024",
     name: "The Fable",
@@ -1217,7 +1217,7 @@ const cardsData = [
     },
     {
     id: "highspeed-etoile",
-    imageSrc: "../../img/2024/highspeed-etoile.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/highspeed-etoile.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 06 de abril del 2024",
     name: "Highspeed Etoile",
@@ -1228,7 +1228,7 @@ const cardsData = [
     },
     {
     id: "karasu-wa-aruji-wo-erabanai",
-    imageSrc: "../../img/2024/karasu-wa-aruji-wo-erabanai.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/karasu-wa-aruji-wo-erabanai.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 06 de abril del 2024",
     name: "Karasu wa Aruji wo Erabanai",
@@ -1251,7 +1251,7 @@ const cardsData = [
     },
     {
     id: "tensei-shitara-slime-datta-ken-3rd-season",
-    imageSrc: "../../img/2024/tensei-shitara-slime-datta-ken-3rd-season.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/tensei-shitara-slime-datta-ken-3rd-season.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 05 de abril del 2024",
     name: "Tensei shitara Slime Datta Ken 3rd Season",
@@ -1263,7 +1263,7 @@ const cardsData = [
     },
     {
     id: "mahouka-koukou-no-rettousei-3rd-season",
-    imageSrc: "../../img/2024/mahouka-koukou-no-rettousei-3rd-season.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/mahouka-koukou-no-rettousei-3rd-season.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 01 de abril del 2024",
     name: "Mahouka Koukou no Rettousei 3rd Season",
@@ -1275,7 +1275,7 @@ const cardsData = [
     },
     {
     id: "girls-band-cry",
-    imageSrc: "../../img/2024/girls-band-cry.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/girls-band-cry.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 06 de abril del 2024",
     name: "Girls Band Cry",
@@ -1286,7 +1286,7 @@ const cardsData = [
     },
     {
     id: "astro-note",
-    imageSrc: "../../img/2024/astro-note.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/astro-note.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 05 de abril del 2024",
     name: "Astro Note",
@@ -1297,7 +1297,7 @@ const cardsData = [
     },
     {
     id: "henjin-no-salad-bowl",
-    imageSrc: "../../img/2024/henjin-no-salad-bowl.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/henjin-no-salad-bowl.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 05 de abril del 2024",
     name: "Henjin no Salad Bowl",
@@ -1308,7 +1308,7 @@ const cardsData = [
     },
     {
     id: "nijiyon-animation-2",
-    imageSrc: "../../img/2024/nijiyon-animation-2.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/nijiyon-animation-2.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 05 de abril del 2024",
     name: "Nijiyon Animation 2",
@@ -1319,7 +1319,7 @@ const cardsData = [
     },
     {
     id: "yuru-camp-season-3",
-    imageSrc: "../../img/2024/yuru-camp-season-3.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/yuru-camp-season-3.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 04 de abril del 2024",
     name: "Yuru Camp△ Season 3",
@@ -1331,7 +1331,7 @@ const cardsData = [
     },
     {
     id: "hananoi-kun-to-koi-no-yamai",
-    imageSrc: "../../img/2024/hananoi-kun-to-koi-no-yamai.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/hananoi-kun-to-koi-no-yamai.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión:04 de abril del 2024",
     name: "Hananoi-kun to Koi no Yamai",
@@ -1343,7 +1343,7 @@ const cardsData = [
     },
     {
     id: "wind-breaker",
-    imageSrc: "../../img/2024/wind-breaker.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/wind-breaker.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 05 de abril del 2024",
     name: "Wind Breaker",
@@ -1354,7 +1354,7 @@ const cardsData = [
     },
     {
     id: "bartender-kami-no-glass",
-    imageSrc: "../../img/2024/bartender-kami-no-glass.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/bartender-kami-no-glass.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 04 de bril del 2024",
     name: "Bartender: Kami no Glass",
@@ -1377,7 +1377,7 @@ const cardsData = [
     },
     {
     id: "touken-ranbu-kai-kyoden-moyuru-honnouji",
-    imageSrc: "../../img/2024/touken-ranbu-kai-kyoden-moyuru-honnouji.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/touken-ranbu-kai-kyoden-moyuru-honnouji.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 02 de abril del 2024",
     name: "Touken Ranbu Kai Kyoden Moyuru Honnouji",
@@ -1388,7 +1388,7 @@ const cardsData = [
     },
     {
     id: "ookami-to-koushinryou-merchant-meets-the-wise-wolf",
-    imageSrc: "../../img/2024/ookami-to-koushinryou-merchant-meets-the-wise-wolf.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/ookami-to-koushinryou-merchant-meets-the-wise-wolf.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 01 de abril del 2024",
     name: "Ookami to Koushinryou: Merchant Meets the Wise Wolf",
@@ -1399,7 +1399,7 @@ const cardsData = [
     },
     {
     id: "tensei-shitara-dainana-ouji-datta-node-kimama-ni-majutsu-wo-kiwamemasu",
-    imageSrc: "../../img/2024/tensei-shitara-dainana-ouji-datta-node-kimama-ni-majutsu-wo-kiwamemasu.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/tensei-shitara-dainana-ouji-datta-node-kimama-ni-majutsu-wo-kiwamemasu.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 02 de abril del 2024",
     name: "Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu",
@@ -1410,7 +1410,7 @@ const cardsData = [
     },//------------------------------------------------------------------------------------------------------------------------------------------
     {
     id: "kami-wa-game-ni-ueteiru",
-    imageSrc: "../../img/2024/kami-wa-game-ni-ueteiru.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kami-wa-game-ni-ueteiru.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 01 de abril del 2024",
     name: "Kami wa Game ni Ueteiru.",
@@ -1422,7 +1422,7 @@ const cardsData = [
     },
     {
     id: "remonster",
-    imageSrc: "../../img/2024/remonster.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/remonster.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 05 de abril del 2024",
     name: "Re:Monster",
@@ -1433,7 +1433,7 @@ const cardsData = [
     },
     {
     id: "dekisokonai-to-yobareta-motoeiyuu-wa-jikka-kara-tsuihou-sareta-node-sukikatte-ni-ikiru-koto-ni-shita",
-    imageSrc: "../../img/2024/dekisokonai-to-yobareta-motoeiyuu-wa-jikka-kara-tsuihou-sareta-node-sukikatte-ni-ikiru-koto-ni-shita.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/dekisokonai-to-yobareta-motoeiyuu-wa-jikka-kara-tsuihou-sareta-node-sukikatte-ni-ikiru-koto-ni-shita.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 02 de abril del 2024",
     name: "Dekisokonai to Yobareta Motoeiyuu wa Jikka kara Tsuihou sareta node Sukikatte ni Ikiru Koto ni Shita",
@@ -1444,7 +1444,7 @@ const cardsData = [
     },
     {
     id: "shuumatsu-train-doko-e-iku",
-    imageSrc: "../../img/2024/shuumatsu-train-doko-e-iku.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/shuumatsu-train-doko-e-iku.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 01 de abril del 2024",
     name: "Shuumatsu Train Doko e Iku?",
@@ -1456,7 +1456,7 @@ const cardsData = [
     },
     {
     id: "one-room-hiatari-futsuu-tenshi-tsuki",
-    imageSrc: "../../img/2024/one-room-hiatari-futsuu-tenshi-tsuki.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/one-room-hiatari-futsuu-tenshi-tsuki.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 30 de mayo del 2024",
     name: "One Room, Hiatari Futsuu, Tenshi-tsuki.",
@@ -1468,7 +1468,7 @@ const cardsData = [
     },
     {
     id: "sand-land-the-series",
-    imageSrc: "../../img/2024/sand-land-the-series.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/sand-land-the-series.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 20 de marzo del 2024",
     name: "Sand Land: The Series",
@@ -1512,7 +1512,7 @@ const cardsData = [
     },
     {
     id: "bai-jia-jue-zhi-jianghu-gui-shi-lu",
-    imageSrc: "../../img/2024/bai-jia-jue-zhi-jianghu-gui-shi-lu.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/bai-jia-jue-zhi-jianghu-gui-shi-lu.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 20 de marzo del 2024",
     name: "Bai Jia Jue Zhi: Jianghu Gui Shi Lu",
@@ -1523,7 +1523,7 @@ const cardsData = [
     },
     {
     id: "bu-xing-si-yuan-qi",
-    imageSrc: "../../img/2024/bu-xing-si-yuan-qi.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/bu-xing-si-yuan-qi.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 29 de febrero del 2024",
     name: "Bu Xing Si Yuan Qi",
@@ -1534,7 +1534,7 @@ const cardsData = [
     },
     {
     id: "great-pretender-razbliuto",
-    imageSrc: "../../img/2024/great-pretender-razbliuto.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/great-pretender-razbliuto.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 23 de abril del 2024",
     name: "Great Pretender: Razbliuto",
@@ -1545,7 +1545,7 @@ const cardsData = [
     },
     {
     id: "yishi-zhi-zun",
-    imageSrc: "../../img/2024/yishi-zhi-zun.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/yishi-zhi-zun.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 18 de febrero del 2024",
     name: "Yishi Zhi Zun",
@@ -1556,7 +1556,7 @@ const cardsData = [
     },
     {
     id: "aishang-ta-de-liyou-extra",
-    imageSrc: "../../img/2024/aishang-ta-de-liyou-extra.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/aishang-ta-de-liyou-extra.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 13 de febrero del 2024",
     name: "Aishang Ta de Liyou: Extra",
@@ -1567,7 +1567,7 @@ const cardsData = [
     },
     {
     id: "ninja-kamui",
-    imageSrc: "../../img/2024/ninja-kamui.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/ninja-kamui.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 11 de febrero del 2024",
     name: "Ninja Kamui",
@@ -1578,7 +1578,7 @@ const cardsData = [
     },
     {
       id: "wonderful-precure",
-    imageSrc: "../../img/2024/wonderful-precure.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/wonderful-precure.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 04 de febrero del 2024",
     name: "Wonderful Precure",
@@ -1589,7 +1589,7 @@ const cardsData = [
     },
     {
       id: "kui-cheng-shoufu-cong-youxi-kaishi",
-    imageSrc: "../../img/2024/kui-cheng-shoufu-cong-youxi-kaishi.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kui-cheng-shoufu-cong-youxi-kaishi.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 03 de abril del 2024",
     name: "Kui Cheng Shoufu: Cong Youxi Kaishi",
@@ -1600,7 +1600,7 @@ const cardsData = [
     },
     {
       id: "taigu-xing-shen-jue",
-    imageSrc: "../../img/2024/taigu-xing-shen-jue.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/taigu-xing-shen-jue.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 25 de enero del 2024",
     name: "Taigu Xing Shen Jue",
@@ -1611,7 +1611,7 @@ const cardsData = [
     },
     {
       id: "yi-ren-jun-moye",
-    imageSrc: "../../img/2024/yi-ren-jun-moye.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/yi-ren-jun-moye.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 24 de abril del 2024",
     name: "Yi Ren Jun Moye",
@@ -1622,7 +1622,7 @@ const cardsData = [
     },
     {
       id: "sheng-zu",
-    imageSrc: "../../img/2024/sheng-zu.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/sheng-zu.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 23 de abril del 2024",
     name: "Sheng Zu",
@@ -1633,7 +1633,7 @@ const cardsData = [
     },
     {
       id: "monsters-ippyaku-sanjou-hiryuu-jigoku",
-    imageSrc: "../../img/2024/monsters-ippyaku-sanjou-hiryuu-jigoku.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/monsters-ippyaku-sanjou-hiryuu-jigoku.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 22 de enero del 2024",
     name: "Monsters: Ippyaku Sanjou Hiryuu Jigoku",
@@ -1644,7 +1644,7 @@ const cardsData = [
     },
     {
       id: "da-yuzhou-shidai",
-    imageSrc: "../../img/2024/da-yuzhou-shidai.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/da-yuzhou-shidai.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 22 del enero del 2024",
     name: "Da Yuzhou Shidai",
@@ -1655,7 +1655,7 @@ const cardsData = [
     },
     {
       id: "meiji-gekken-1874",
-    imageSrc: "../../img/2024/meiji-gekken-1874.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/meiji-gekken-1874.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 14 de abril del 2024",
     name: "Meiji Gekken: 1874",
@@ -1666,7 +1666,7 @@ const cardsData = [
     },
     {
       id: "hikari-no-ou-2nd-season",
-    imageSrc: "../../img/2024/hikari-no-ou-2nd-season.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/hikari-no-ou-2nd-season.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 14 de enero del 2024",
     name: "Hikari no Ou 2nd Season",
@@ -1677,7 +1677,7 @@ const cardsData = [
     },
     {
       id: "yami-shibai-12",
-    imageSrc: "../../img/2024/yami-shibai-12.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/yami-shibai-12.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 14 de enero del 2024",
     name: "Yami Shibai 12",
@@ -1688,7 +1688,7 @@ const cardsData = [
     },
     {
       id: "kingdom-5th-season",
-    imageSrc: "../../img/2024/kingdom-5th-season.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kingdom-5th-season.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 13 de abril del 2024",
     name: "Kingdom 5th Season",
@@ -1699,7 +1699,7 @@ const cardsData = [
     },
     {
       id: "bucchigiri",
-    imageSrc: "../../img/2024/bucchigiri.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/bucchigiri.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 13 de enero del 2024",
     name: "Bucchigiri?!",
@@ -1710,7 +1710,7 @@ const cardsData = [
     },
     {
       id: "cardfight-vanguard-divinez",
-    imageSrc: "../../img/2024/cardfight-vanguard-divinez.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/cardfight-vanguard-divinez.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 13 de enero del 2024",
     name: "Cardfight!! Vanguard: Divinez",
@@ -1721,7 +1721,7 @@ const cardsData = [
     },
     {
       id: "wangzhe-rongyao-rongyao-zhi-zhang",
-    imageSrc: "../../img/2024/wangzhe-rongyao-rongyao-zhi-zhang.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/wangzhe-rongyao-rongyao-zhi-zhang.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 13 de enero del 2024",
     name: "Wangzhe Rongyao: Rongyao Zhi Zhang",
@@ -1732,7 +1732,7 @@ const cardsData = [
     }, 
     {
       id: "meitou-isekai-no-yu-kaitakuki-around-40-onsen-mania-no-tensei-saki-wa-nonbiri-onsen-tengoku-deshita",
-    imageSrc: "../../img/2024/meitou-isekai-no-yu-kaitakuki-around-40-onsen-mania-no-tensei-saki-wa-nonbiri-onsen-tengoku-deshita.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/meitou-isekai-no-yu-kaitakuki-around-40-onsen-mania-no-tensei-saki-wa-nonbiri-onsen-tengoku-deshita.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 12 de enero del 2024",
     name: "Meitou &quot;Isekai no Yu&quot; Kaitakuki: Around 40 Onsen Mania no Tensei Saki wa, Nonbiri Onsen Tengoku deshita",
@@ -1743,7 +1743,7 @@ const cardsData = [
     },  
     {
       id: "majo-to-yajuu",
-    imageSrc: "../../img/2024/majo-to-yajuu.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/majo-to-yajuu.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 12 de enero del 2024",
     name: "Majo to Yajuu",
@@ -1754,7 +1754,7 @@ const cardsData = [
     },
     {
       id: "urusei-yatsura-2022-2nd-season",
-    imageSrc: "../../img/2024/urusei-yatsura-2022-2nd-season.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/urusei-yatsura-2022-2nd-season.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 12 de enero del 2024",
     name: "Urusei Yatsura (2022) 2nd Season",
@@ -1765,7 +1765,7 @@ const cardsData = [
     },  
     {
       id: "saijaku-tamer-wa-gomi-hiroi-no-tabi-wo-hajimemashita",
-    imageSrc: "../../img/2024/saijaku-tamer-wa-gomi-hiroi-no-tabi-wo-hajimemashita.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/saijaku-tamer-wa-gomi-hiroi-no-tabi-wo-hajimemashita.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 12 de enero del 2024",
     name: "Saijaku Tamer wa Gomi Hiroi no Tabi wo Hajimemashita",
@@ -1777,7 +1777,7 @@ const cardsData = [
     },
     {
       id: "snack-basue",
-    imageSrc: "../../img/2024/snack-basue.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/snack-basue.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 12 de enero del 2024",
     name: "Snack Basue",
@@ -1788,7 +1788,7 @@ const cardsData = [
     },
     {
       id: "gekkan-mousou-kagaku",
-    imageSrc: "../../img/2024/gekkan-mousou-kagaku.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/gekkan-mousou-kagaku.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 11 de enero del 2024",
     name: "Gekkan Mousou Kagaku",
@@ -1799,7 +1799,7 @@ const cardsData = [
     },
     {
       id: "yuuki-bakuhatsu-bang-bravern",
-    imageSrc: "../../img/2024/yuuki-bakuhatsu-bang-bravern.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/yuuki-bakuhatsu-bang-bravern.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 11 de enero del 2024",
     name: "Yuuki Bakuhatsu Bang Bravern",
@@ -1810,7 +1810,7 @@ const cardsData = [
     },
     {
       id: "metallic-rouge",
-    imageSrc: "../../img/2024/metallic-rouge.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/metallic-rouge.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 10 de enero del 2024",
     name: "Metallic Rouge",
@@ -1821,7 +1821,7 @@ const cardsData = [
     },  
     {
       id: "gekai-elise",
-    imageSrc: "../../img/2024/gekai-elise.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/gekai-elise.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 10 de enero del 2024",
     name: "Gekai Elise",
@@ -1833,7 +1833,7 @@ const cardsData = [
     },
     {
       id: "sengoku-youko",
-    imageSrc: "../../img/2024/sengoku-youko.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/sengoku-youko.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 10 de enero del 2024",
     name: "Sengoku Youko",
@@ -1844,7 +1844,7 @@ const cardsData = [
     },
     {
       id: "30-sai-made-doutei-dato-mahoutsukai-ni-nareru-rashii",
-    imageSrc: "../../img/2024/30-sai-made-doutei-dato-mahoutsukai-ni-nareru-rashii.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/30-sai-made-doutei-dato-mahoutsukai-ni-nareru-rashii.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 10 de enero del 2024",
     name: "30-sai made Doutei dato Mahoutsukai ni Nareru Rashii",
@@ -1855,7 +1855,7 @@ const cardsData = [
     },
     {
       id: "synduality-noir-part-2",
-    imageSrc: "../../img/2024/synduality-noir-part-2.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/synduality-noir-part-2.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 09 de enero del 2024",
     name: "Synduality: Noir Part 2",
@@ -1866,7 +1866,7 @@ const cardsData = [
     },
     {
       id: "akuyaku-reijou-level-99-watashi-wa-ura-boss-desu-ga-maou-dewa-arimasen",
-    imageSrc: "../../img/2024/akuyaku-reijou-level-99-watashi-wa-ura-boss-desu-ga-maou-dewa-arimasen.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/akuyaku-reijou-level-99-watashi-wa-ura-boss-desu-ga-maou-dewa-arimasen.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 09 de enero del 2024",
     name: "Akuyaku Reijou Level 99: Watashi wa Ura-Boss desu ga Maou dewa Arimasen",
@@ -1878,7 +1878,7 @@ const cardsData = [
     },  
     {
       id: "shaman-king-flowers",
-    imageSrc: "../../img/2024/shaman-king-flowers.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/shaman-king-flowers.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 09 de enero del 2024",
     name: "Shaman King: Flowers",
@@ -1889,7 +1889,7 @@ const cardsData = [
     },
     {
       id: "tsuki-ga-michibiku-isekai-douchuu-2nd-season",
-    imageSrc: "../../img/2024/tsuki-ga-michibiku-isekai-douchuu-2nd-season.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/tsuki-ga-michibiku-isekai-douchuu-2nd-season.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 08 de enero del 2024",
     name: "Tsuki ga Michibiku Isekai Douchuu 2nd Season",
@@ -1901,7 +1901,7 @@ const cardsData = [
     },
     {
       id: "dosanko-gal-wa-namara-menkoi",
-    imageSrc: "../../img/2024/dosanko-gal-wa-namara-menkoi.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/dosanko-gal-wa-namara-menkoi.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 08 de enero del 2024",
     name: "Dosanko Gal wa Namara Menkoi",
@@ -1912,7 +1912,7 @@ const cardsData = [
     },
     {
       id: "oroka-na-tenshi-wa-akuma-to-odoru",
-    imageSrc: "../../img/2024/oroka-na-tenshi-wa-akuma-to-odoru.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/oroka-na-tenshi-wa-akuma-to-odoru.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 08 de enero del 2024",
     name: "Oroka na Tenshi wa Akuma to Odoru",
@@ -1924,7 +1924,7 @@ const cardsData = [
     },
     {
       id: "high-card-season-2",
-    imageSrc: "../../img/2024/high-card-season-2.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/high-card-season-2.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 08 de enero del 2024",
     name: "High Card Season 2",
@@ -1935,7 +1935,7 @@ const cardsData = [
     },
     {
       id: "nozomanu-fushi-no-boukensha",
-    imageSrc: "../../img/2024/nozomanu-fushi-no-boukensha.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/nozomanu-fushi-no-boukensha.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 08 de enero del 2024",
     name: "Nozomanu Fushi no Boukensha",
@@ -1946,7 +1946,7 @@ const cardsData = [
     },
     {
     id: "himesama-goumon-no-jikan-desu",
-    imageSrc: "../../img/2024/himesama-goumon-no-jikan-desu.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/himesama-goumon-no-jikan-desu.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 08 de enero del 2024",
     name: "Himesama &quot;Goumon&quot; no Jikan desu",
@@ -1958,7 +1958,7 @@ const cardsData = [
     },
     {
       id: "boku-no-kokoro-no-yabai-yatsu-season-2",
-    imageSrc: "../../img/2024/boku-no-kokoro-no-yabai-yatsu-season-2.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/boku-no-kokoro-no-yabai-yatsu-season-2.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 07 de enero del 2024",
     name: "Boku no Kokoro no Yabai Yatsu Season 2",
@@ -1970,7 +1970,7 @@ const cardsData = [
     },
     {
       id: "ao-no-exorcist-shimane-illuminati-hen",
-    imageSrc: "../../img/2024/ao-no-exorcist-shimane-illuminati-hen.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/ao-no-exorcist-shimane-illuminati-hen.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 07 de enero del 2024",
     name: "Ao no Exorcist: Shimane Illuminati-hen",
@@ -1981,7 +1981,7 @@ const cardsData = [
     },
     {
       id: "shin-no-nakama-ja-nai-to-yuusha-no-party-wo-oidasareta-node-henkyou-de-slow-life-suru-koto-ni-shimashita-2nd",
-    imageSrc: "../../img/2024/shin-no-nakama-ja-nai-to-yuusha-no-party-wo-oidasareta-node-henkyou-de-slow-life-suru-koto-ni-shimashita-2nd.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/shin-no-nakama-ja-nai-to-yuusha-no-party-wo-oidasareta-node-henkyou-de-slow-life-suru-koto-ni-shimashita-2nd.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 07 de enero del 2024",
     name: "Shin no Nakama ja Nai to Yuusha no Party wo Oidasareta node, Henkyou de Slow Life suru Koto ni Shimashita 2nd",
@@ -1993,7 +1993,7 @@ const cardsData = [
     },
     {
       id: "loop-7-kaime-no-akuyaku-reijou-wa-moto-tekikoku-de-jiyuu-kimama-na-hanayome-seikatsu-wo-mankitsu-suru",
-    imageSrc: "../../img/2024/loop-7-kaime-no-akuyaku-reijou-wa-moto-tekikoku-de-jiyuu-kimama-na-hanayome-seikatsu-wo-mankitsu-suru.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/loop-7-kaime-no-akuyaku-reijou-wa-moto-tekikoku-de-jiyuu-kimama-na-hanayome-seikatsu-wo-mankitsu-suru.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 07 de enero del 2024",
     name: "Loop 7-kaime no Akuyaku Reijou wa, Moto Tekikoku de Jiyuu Kimama na Hanayome Seikatsu wo Mankitsu suru",
@@ -2005,7 +2005,7 @@ const cardsData = [
     },
     {
       id: "kyuujitsu-no-warumono-san",
-    imageSrc: "../../img/2024/kyuujitsu-no-warumono-san.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kyuujitsu-no-warumono-san.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 07 de enero del 2024",
     name: "Kyuujitsu no Warumono-san",
@@ -2016,7 +2016,7 @@ const cardsData = [
     },
     {
       id: "saikyou-tank-no-meikyuu-kouryaku-tairyoku-9999-no-rare-skill-mochi-tank-yuusha-party-wo-tsuihou-sareru",
-    imageSrc: "../../img/2024/saikyou-tank-no-meikyuu-kouryaku-tairyoku-9999-no-rare-skill-mochi-tank-yuusha-party-wo-tsuihou-sareru.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/saikyou-tank-no-meikyuu-kouryaku-tairyoku-9999-no-rare-skill-mochi-tank-yuusha-party-wo-tsuihou-sareru.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 07 de enero del 2024",
     name: "Saikyou Tank no Meikyuu Kouryaku: Tairyoku 9999 no Rare Skill-mochi Tank, Yuusha Party wo Tsuihou sareru",
@@ -2027,7 +2027,7 @@ const cardsData = [
     },
     {
       id: "ore-dake-level-up-na-ken",
-    imageSrc: "../../img/2024/ore-dake-level-up-na-ken.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/ore-dake-level-up-na-ken.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 06 de enero del 2024",
     name: "Ore dake Level Up na Ken",
@@ -2039,7 +2039,7 @@ const cardsData = [
     },
     {
       id: "mashle-2nd-season",
-    imageSrc: "../../img/2024/mashle-2nd-season.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/mashle-2nd-season.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 06 de enero del 2024",
     name: "Mashle 2nd Season",
@@ -2050,7 +2050,7 @@ const cardsData = [
     },
     {
       id: "yubisaki-to-renren",
-    imageSrc: "../../img/2024/yubisaki-to-renren.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/yubisaki-to-renren.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 06 de enero del 2024",
     name: "Yubisaki to Renren",
@@ -2062,7 +2062,7 @@ const cardsData = [
     },
     {
       id: "kekkon-yubiwa-monogatari",
-    imageSrc: "../../img/2024/kekkon-yubiwa-monogatari.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kekkon-yubiwa-monogatari.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 06 de enero del 2024",
     name: "Kekkon Yubiwa Monogatari",
@@ -2073,7 +2073,7 @@ const cardsData = [
     },
     {
       id: "pon-no-michi",
-    imageSrc: "../../img/2024/pon-no-michi.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/pon-no-michi.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 06 de enero del 2024",
     name: "Pon no Michi",
@@ -2084,7 +2084,7 @@ const cardsData = [
     },
     {
       id: "sokushi-cheat-ga-saikyou-sugite-isekai-no-yatsura-ga-marude-aite-ni-naranai-n-desu-ga",
-    imageSrc: "../../img/2024/sokushi-cheat-ga-saikyou-sugite-isekai-no-yatsura-ga-marude-aite-ni-naranai-n-desu-ga.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/sokushi-cheat-ga-saikyou-sugite-isekai-no-yatsura-ga-marude-aite-ni-naranai-n-desu-ga.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 05 de enero del 2024",
     name: "Sokushi Cheat ga Saikyou sugite, Isekai no Yatsura ga Marude Aite ni Naranai n desu ga",
@@ -2095,7 +2095,7 @@ const cardsData = [
     },
     {
       id: "chiyu-mahou-no-machigatta-tsukaikata",
-    imageSrc: "../../img/2024/chiyu-mahou-no-machigatta-tsukaikata.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/chiyu-mahou-no-machigatta-tsukaikata.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 05 de enero del 2024",
     name: "Chiyu Mahou no Machigatta Tsukaikata",
@@ -2107,7 +2107,7 @@ const cardsData = [
     },
     {
       id: "momochi-san-chi-no-ayakashi-ouji",
-    imageSrc: "../../img/2024/momochi-san-chi-no-ayakashi-ouji.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/momochi-san-chi-no-ayakashi-ouji.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 05 de enero del 2024",
     name: "Momochi-san Chi no Ayakashi Ouji",
@@ -2118,7 +2118,7 @@ const cardsData = [
     },
     {
       id: "sasaki-to-pii-chan",
-    imageSrc: "../../img/2024/sasaki-to-pii-chan.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/sasaki-to-pii-chan.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 05 de enero del 2024",
     name: "Sasaki to Pii-chan",
@@ -2129,7 +2129,7 @@ const cardsData = [
     },
     {
       id: "chou-futsuu-ken-chiba-densetsu",
-    imageSrc: "../../img/2024/chou-futsuu-ken-chiba-densetsu.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/chou-futsuu-ken-chiba-densetsu.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 05 de enero del 2024",
     name: "Chou Futsuu Ken Chiba Densetsu",
@@ -2140,7 +2140,7 @@ const cardsData = [
     },
     {
       id: "mato-seihei-no-slave",
-    imageSrc: "../../img/2024/mato-seihei-no-slave.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/mato-seihei-no-slave.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 04 de enero del 2024",
     name: "Mato Seihei no Slave",
@@ -2151,7 +2151,7 @@ const cardsData = [
     },
     {
       id: "dungeon-meshi",
-    imageSrc: "../../img/2024/dungeon-meshi.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/dungeon-meshi.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 04 de enero del 2024",
     name: "Dungeon Meshi",
@@ -2162,7 +2162,7 @@ const cardsData = [
     },
     {
       id: "youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-3rd-season",
-    imageSrc: "../../img/2024/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-3rd-season.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-3rd-season.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 03 de enero del 2024",
     name: "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 3rd Season",
@@ -2174,7 +2174,7 @@ const cardsData = [
     },
     {
       id: "jaku-chara-tomozaki-kun-2nd-stage",
-    imageSrc: "../../img/2024/jaku-chara-tomozaki-kun-2nd-stage.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/jaku-chara-tomozaki-kun-2nd-stage.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 03 de enero del 2024",
     name: "Jaku-Chara Tomozaki-kun 2nd Stage",
@@ -2185,7 +2185,7 @@ const cardsData = [
     },
     {
       id: "ishura",
-    imageSrc: "../../img/2024/ishura.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/ishura.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 03 de enero del 2024",
     name: "Ishura",
@@ -2196,7 +2196,7 @@ const cardsData = [
     },
     {
       id: "mahou-shoujo-ni-akogarete",
-    imageSrc: "../../img/2024/mahou-shoujo-ni-akogarete.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/mahou-shoujo-ni-akogarete.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 03 de enero del 2024",
     name: "Mahou Shoujo ni Akogarete",
@@ -2208,7 +2208,7 @@ const cardsData = [
     },
     {
       id: "wu-nao-monu-2nd-season",
-    imageSrc: "../../img/2024/wu-nao-monu-2nd-season.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/wu-nao-monu-2nd-season.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 02 de enero del 2024",
     name: "Wu Nao Monu 2nd Season",
@@ -2219,7 +2219,7 @@ const cardsData = [
     },
     {
       id: "isekai-de-mofumofu-nadenade-suru-tame-ni-ganbattemasu",
-    imageSrc: "../../img/2024/isekai-de-mofumofu-nadenade-suru-tame-ni-ganbattemasu.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/isekai-de-mofumofu-nadenade-suru-tame-ni-ganbattemasu.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 01 de enero del 2024",
     name: "Isekai de Mofumofu Nadenade suru Tame ni Ganbattemasu",
@@ -2230,7 +2230,7 @@ const cardsData = [
     },
     {
       id: "wangu-kuang-di",
-    imageSrc: "../../img/2024/wangu-kuang-di.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/wangu-kuang-di.jpg?raw=true",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 01 de enero del 2024",
     name: "Wangu Kuang Di",
