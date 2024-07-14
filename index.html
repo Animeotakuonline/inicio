@@ -1,312 +1,396 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="icon" type="image/jpg" href="https://animeplus.club/IMG/animeplus.png"/>
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <title>Animeplus</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="src/input.css" />
+    <link rel="stylesheet" href="src/estilos-acordeon.css" />
 </head>
-<body class="color black">
-  <nav class="nav-wrapper color indigo darken-4">
-    <div class="container">
-      <a href="#" class="brand-logo right" style="font-family: Lobster, cursive !important;">Animeplus</a>
-      <a href="#" data-target="menu-responsive" class="sidenav-trigger">
-        <i class="material-icons">menu</i>
-      </a>
-
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
-        <li><a href="index.html" class="color black white-text">Index</a></li>
-        <li><a href="anime.html">Anime</a></li>
-        <li><a href="cultura_otaku.html">Cultura otaku</a></li>
-        <li><a href="japon.html">Japon</a></li>
-        <li><a href="live action.html">Live action</a></li>
-        <li><a href="novelas_ligeras.html">Novelas Ligeras</a></li>
-        <li><a href="reseñas.html">Reseñas</a></li>
-        <li><a href="videojuegos.html">Videojuegos</a></li>
-        <li><a href="tops.html">Tops</a></li>
-        <li><a href="estrenos.html">Estrenos</a></li>
-        <!--<li><a href="collapsible.html">JavaScript</a></li>-->
-      </ul>
-
-      <ul class="sidenav" id="menu-responsive" class="color indigo darken-4">
-        <li><a href="index.html" class="color black white-text">Index</a></li>
-        <li><a href="anime.html">Anime</a></li>
-        <li><a href="cultura_otaku.html">Cultura otaku</a></li>
-        <li><a href="japon.html">Japon</a></li>
-        <li><a href="live action.html">Live action</a></li>
-        <li><a href="novelas_ligeras.html">Novelas Ligeras</a></li>
-        <li><a href="reseñsas.html">Reseñas</a></li>
-        <li><a href="videojuegos.html">Videojuegos</a></li>
-        <li><a href="tops.html">Tops</a></li>
-        <li><a href="estrenos.html">Estrenos</a></li>
-
-      </ul>
-
-
-    </div>
-  </nav>
-
-  
-
-  <h3 class="color indigo darken-4 white-text">Noticias</h3>
-
-  <h4 class="color indigo darken-4 white-text">ULTIMOS AGREGADOSsss</h4>
-
-  <div class="row"><!--inicia-->
-    <div class="col s12 m4 l2">
-      <div class="card">
-        <div class="card-image">
-          <a ref="El_anime_de_Shiro_Seijo_to_Kuro_Bokushi_se_estrenará_en_abril_2023.html"><img src="https://ramenparados.com/wp-content/uploads/2022/09/SaintCecilia_Portada-min-1-400x240.png" width="100px" height="100%"></a>
+<body class="bg-gray-200">
+    <nav class="bg-gray-800 p-3">
+      <div
+        class="container mx-auto flex items-center justify-between flex-wrap"
+      >
+        <div>
+          <a href="index.html" class="text-white text-lg font-bold">ANIMES</a>
         </div>
-        <div class="card-content">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of i.</p>
-        </div>
-        <div class="card-action">
-          <a href="El_anime_de_Shiro_Seijo_to_Kuro_Bokushi_se_estrenará_en_abril_2023.html">VER</a>
+
+        <!-- Botón para desplegar en pantallas pequeñas -->
+        <button
+          class="text-white inline-block p-2 hover:bg-gray-700 focus:outline-none md:hidden"
+          id="menuButton"
+        >
+          <svg
+            class="h-6 w-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16m-7 6h7"
+            ></path>
+          </svg>
+        </button>
+
+        <!-- Lista desplegable para pantallas pequeñas -->
+        <div
+          class="hidden md:inline-block md:flex md:items-center md:w-auto"
+          id="navContent"
+        >
+          <!-- Lista desplegable 1 -->
+          <div class="relative inline-block text-left md:ml-4 w-full md:w-auto">
+            <a href="index.html" class="block md:inline-block w-full md:w-auto">
+              <button
+                id="dropdownButton1"
+                class="text-white bg-blue-500 hover:bg-blue-600 hover:text-white hover:underline px-3 py-2 rounded w-full md:w-auto"
+              >
+                <span class="underline">INICIO</span>
+              </button>
+            </a>
+          </div>
+
+          <!-- Lista desplegable 2 -->
+          <div class="relative inline-block text-left md:ml-4 w-full md:w-auto">
+            <a href="src/paginas/vistos/1.html"
+              ><button
+                id="dropdownButton2"
+                class="text-white bg-yellow-500 hover:bg-yellow-600 hover:text-white hover:underline px-3 py-2 rounded w-full md:w-auto mt-1"
+              >
+                <span>VISTOS</span>
+              </button></a
+            >
+          </div>
+
+          <!-- Lista desplegable 3 -->
+          <div class="relative inline-block text-left md:ml-4 w-full md:w-auto">
+            <a href="src/paginas/por-ver/por-ver.html"
+              ><button
+                id="dropdownButton3"
+                class="text-white bg-red-500 hover:bg-red-600 hover:text-white hover:underline px-3 py-2 rounded w-full md:w-auto mt-1"
+              >
+                <span>POR VER</span>
+              </button></a
+            >
+          </div>
+
+          <!-- Lista desplegable 4 -->
+          <div class="relative inline-block text-left md:ml-4 w-full md:w-auto">
+            <a href="src/paginas/estoy-viendo/estoy-viendo.html"
+              ><button
+                id="dropdownButton4"
+                class="text-white bg-green-500 hover:bg-green-600 hover:text-white hover:underline px-3 py-2 rounded w-full md:w-auto mt-1"
+              >
+                <span>ESTOY VIENDO</span>
+              </button></a
+            >
+          </div>
+
+          <!-- Lista desplegable 5 -->
+          <div class="relative inline-block text-left md:ml-4 w-full md:w-auto">
+            <a href="src/paginas/todos-los-animes/2024/1.html"
+              ><button
+                id="dropdownButton5"
+                class="text-white bg-pink-500 hover:bg-pink-600 hover:text-white hover:underline px-3 py-2 rounded w-full md:w-auto mt-1"
+              >
+                <span>TODOS LOS ANIMES</span>
+              </button></a
+            >
+          </div>
+
+          <!-- Lista desplegable 6 -->
+          <div class="relative inline-block text-left md:ml-4 w-full md:w-auto">
+            <a href="src/paginas/por-genero/por-genero.html"
+              ><button
+                id="dropdownButton6"
+                class="text-white bg-purple-500 hover:bg-purple-600 hover:text-white hover:underline px-3 py-2 rounded w-full md:w-auto mt-1"
+              >
+                <span>POR GENERO</span>
+              </button></a
+            >
+          </div>
+
+          <!-- Lista desplegable 7 -->
+          <div class="relative inline-block text-left md:ml-4 w-full md:w-auto">
+            <a href="src/paginas/por-tipo/por-tipo.html"
+              ><button
+                id="dropdownButton7"
+                class="text-white bg-purple-500 hover:bg-purple-600 hover:text-white hover:underline px-3 py-2 rounded w-full md:w-auto mt-1"
+              >
+                <span>POR TIPO</span>
+              </button></a
+            >
+          </div>
         </div>
       </div>
-    </div>
+    </nav>
 
-    <!--division-->
+    <div class="max-w-screen-lg mx-auto">
+      <br>
+      <div class="bg-white p-4 rounded shadow w-90">
+        <h1 class="text-center font-bold text-2xl ">HORARIO 2024</h1>
+        <div class="accordion">
 
-    <div class="col s12 m4 l2">
-      <div class="card">
-        <div class="card-image">
-          <img src="https://somoskudasai.com/wp-content/uploads/2022/09/0-min-2-1536x1095.jpg">
+
+
+          <div class="accordion-item">
+            <button id="toggleSection1" class="accordion-header">
+                LUNES
+            </button>
+            <div id="section1Content" class="accordion-content hidden grid grid-cols-1 md:grid-cols-4 gap-4">
+                
+                <section id="latestAnimesSection1" class="latest-animes">
+                  <!-- Contenido de Últimos Animes se agregará dinámicamente aquí -->
+                </section>
+                <!-- Repite esta estructura para cada card en la Sección 2 -->
+            </div>
         </div>
-        <div class="card-content">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of i.</p>
+
+
+
+
+          <div class="accordion-item">
+            <button id="toggleSection2" class="accordion-header">
+                MARTES
+            </button>
+            <div id="section2Content" class="accordion-content hidden grid grid-cols-1 md:grid-cols-4 gap-4">
+                
+                <section id="latestAnimesSection2" class="latest-animes">
+                  <!-- Contenido de Últimos Animes se agregará dinámicamente aquí -->
+                </section>
+                <!-- Repite esta estructura para cada card en la Sección 2 -->
+            </div>
         </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-        </div>
+
+
+
+
+        <div class="accordion-item">
+          <button id="toggleSection3" class="accordion-header">
+              MIERCOLES
+          </button>
+          <div id="section3Content" class="accordion-content hidden grid grid-cols-1 md:grid-cols-4 gap-4">
+              
+              <section id="latestAnimesSection3" class="latest-animes">
+                <!-- Contenido de Últimos Animes se agregará dinámicamente aquí -->
+              </section>
+              <!-- Repite esta estructura para cada card en la Sección 2 -->
+          </div>
       </div>
+
+
+
+      <div class="accordion-item">
+        <button id="toggleSection4" class="accordion-header">
+            JUEVES
+        </button>
+        <div id="section4Content" class="accordion-content hidden grid grid-cols-1 md:grid-cols-4 gap-4">
+            
+            <section id="latestAnimesSection4" class="latest-animes">
+              <!-- Contenido de Últimos Animes se agregará dinámicamente aquí -->
+            </section>
+            <!-- Repite esta estructura para cada card en la Sección 2 -->
+        </div>
     </div>
 
-    <div class="col s12 m4 l2">
-      <div class="card">
-        <div class="card-image">
-          <img src="https://somoskudasai.com/wp-content/uploads/2022/09/0-min-2-1536x1095.jpg">
-        </div>
-        <div class="card-content">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of i.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-        </div>
+
+    <div class="accordion-item">
+      <button id="toggleSection5" class="accordion-header">
+          VIERNES
+      </button>
+      <div id="section5Content" class="accordion-content hidden grid grid-cols-1 md:grid-cols-4 gap-4">
+          
+          <section id="latestAnimesSection5" class="latest-animes">
+            <!-- Contenido de Últimos Animes se agregará dinámicamente aquí -->
+          </section>
+          <!-- Repite esta estructura para cada card en la Sección 2 -->
       </div>
-    </div>
-
-    <div class="col s12 m4 l2">
-      <div class="card">
-        <div class="card-image">
-          <img src="https://somoskudasai.com/wp-content/uploads/2022/09/0-min-2-1536x1095.jpg">
-        </div>
-        <div class="card-content">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of i.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col s12 m4 l2">
-      <div class="card">
-        <div class="card-image">
-          <img src="https://somoskudasai.com/wp-content/uploads/2022/09/0-min-2-1536x1095.jpg">
-        </div>
-        <div class="card-content">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of i.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col s12 m4 l2">
-      <div class="card">
-        <div class="card-image">
-          <img src="https://somoskudasai.com/wp-content/uploads/2022/09/0-min-2-1536x1095.jpg">
-        </div>
-        <div class="card-content">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of i.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-  <!--termina primra fila-->
-
-  <div class="row">
-    <div class="col s12 m4 l2">
-      <div class="card">
-        <div class="card-image">
-          <img src="https://somoskudasai.com/wp-content/uploads/2022/09/0-min-2-1536x1095.jpg">
-        </div>
-        <div class="card-content">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of i.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="col s12 m4 l2">
-      <div class="card">
-        <div class="card-image">
-          <img src="https://somoskudasai.com/wp-content/uploads/2022/09/0-min-2-1536x1095.jpg">
-        </div>
-        <div class="card-content">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of i.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="col s12 m4 l2">
-      <div class="card">
-        <div class="card-image">
-          <img src="https://somoskudasai.com/wp-content/uploads/2022/09/0-min-2-1536x1095.jpg">
-        </div>
-        <div class="card-content">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of i.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="col s12 m4 l2">
-      <div class="card">
-        <div class="card-image">
-          <img src="https://somoskudasai.com/wp-content/uploads/2022/09/0-min-2-1536x1095.jpg">
-        </div>
-        <div class="card-content">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of i.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="col s12 m4 l2">
-      <div class="card">
-        <div class="card-image">
-          <img src="https://somoskudasai.com/wp-content/uploads/2022/09/0-min-2-1536x1095.jpg">
-        </div>
-        <div class="card-content">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of i.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col s12 m4 l2">
-      <div class="card">
-        <div class="card-image">
-          <img src="https://somoskudasai.com/wp-content/uploads/2022/09/0-min-2-1536x1095.jpg">
-        </div>
-        <div class="card-content">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of i.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
   </div>
 
 
-  <!--boto-->
-
-  <nav class="nav-wrapper indigo darken-4">
-    <div class="container">
-      <ul id="nav-mobile">
-        <li><a href="#"class="color black white-text">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">5</a></li>
-        <li><a href="#">6</a></li>
-        <li><a href="#">7</a></li>
-        <li><a href="#">8</a></li>
-        <li><a href="#">9</a></li>
-        <li><a href="#">10</a></li>
-        <!--<li><a href="collapsible.html">JavaScript</a></li>-->
-      </ul>
+  <div class="accordion-item">
+    <button id="toggleSection6" class="accordion-header">
+        SABADO
+    </button>
+    <div id="section6Content" class="accordion-content hidden grid grid-cols-1 md:grid-cols-4 gap-4">
+        
+        <section id="latestAnimesSection6" class="latest-animes">
+          <!-- Contenido de Últimos Animes se agregará dinámicamente aquí -->
+        </section>
+        <!-- Repite esta estructura para cada card en la Sección 2 -->
     </div>
-  </nav>
+</div>
 
 
-  
-<!-- Compiled and minified JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+<div class="accordion-item">
+  <button id="toggleSection7" class="accordion-header">
+      DOMINGO
+  </button>
+  <div id="section7Content" class="accordion-content hidden grid grid-cols-1 md:grid-cols-4 gap-4">
+      
+      <section id="latestAnimesSection7" class="latest-animes">
+        <!-- Contenido de Últimos Animes se agregará dinámicamente aquí -->
+      </section>
+      <!-- Repite esta estructura para cada card en la Sección 2 -->
+  </div>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <section id="animeCards" class="anime-cards">
+        <!-- Contenido de tarjetas se agregará dinámicamente aquí -->
+      </section>
+      
+      <p class="font-bold">Ultimas series vistas</p>
+      <section id="latestAnimesSection" class="latest-animes">
+        <!-- Contenido de Últimos Animes se agregará dinámicamente aquí -->
+      </section>
+    </div>
+
+   
+    <p id="contador"  class="text-lg font-semibold text-blue-500 text-center"></p>
+    <script>
+      // Verificar si el contador está almacenado en localStorage
+      if(localStorage.getItem('visitas')) {
+          // Si existe, obtener el valor y convertirlo a entero
+          var contador = parseInt(localStorage.getItem('visitas'));
+      } else {
+          // Si no existe, establecer el contador en 0
+          var contador = 0;
+      }
+
+      // Incrementar el contador
+      contador++;
+
+      // Mostrar el contador en la página
+      document.getElementById('contador').innerHTML = 'visitas: ' + contador + ' usuarios visitaron el sitio';
+
+      // Almacenar el contador en localStorage
+      localStorage.setItem('visitas', contador.toString());
+  </script>
+
+
+    
+    
+    <script src="mirando.js"></script>
+    <script src="boton-hamburguesa.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const accordionHeaders = document.querySelectorAll(".accordion-header");
+
+        accordionHeaders.forEach((header) => {
+          header.addEventListener("click", function () {
+            const accordionItem = this.parentNode;
+            const accordionContent =
+              accordionItem.querySelector(".accordion-content");
+
+            if (accordionContent.style.display === "block") {
+              accordionContent.style.display = "none";
+            } else {
+              accordionContent.style.display = "block";
+            }
+          });
+        });
+      });
+    </script>
+
 <script>
-  document.addEventListener('DOMContentLoaded', function(){
-    M.AutoInit();
-  })
+  // Obtén referencias a los elementos del DOM
+  const toggleSection1Button = document.getElementById("toggleSection1");
+  const section1Content = document.getElementById("section!Content");
+
+  // Agrega un evento de clic al botón
+  toggleSection1Button.addEventListener("click", () => {
+    // Alternar la clase 'hidden' en la sección de contenido
+    section1Content.classList.toggle("hidden");
+  });
 </script>
-</body>
-<br>
-<footer class="page-footer color indigo darken-4">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">
 
-                </h5>
-                <p class="grey-text text-lighten-4">
+    <script>
+      // Obtén referencias a los elementos del DOM
+      const toggleSection2Button = document.getElementById("toggleSection2");
+      const section2Content = document.getElementById("section2Content");
 
-                </p>
-              </div>
-              <div class="col l4 offset-l2 s12 indigo darken-4">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="https://www.animeplus.club"target="_blank">Animeplus</a></li>
-                  <!--<li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>-->
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="footer-copyright color indigo darken-4">
-            <div class="container">
-              Animeplus - Todos los Derechos Reservados Sitio Creado por Cristian Cardona.
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-            </div>
-          </div>
-        </footer>
+      // Agrega un evento de clic al botón
+      toggleSection2Button.addEventListener("click", () => {
+        // Alternar la clase 'hidden' en la sección de contenido
+        section2Content.classList.toggle("hidden");
+      });
+    </script>
+
+<script>
+  // Obtén referencias a los elementos del DOM
+  const toggleSection3Button = document.getElementById("toggleSection3");
+  const section3Content = document.getElementById("section3Content");
+
+  // Agrega un evento de clic al botón
+  toggleSection3Button.addEventListener("click", () => {
+    // Alternar la clase 'hidden' en la sección de contenido
+    section3Content.classList.toggle("hidden");
+  });
+</script>
+
+<script>
+  // Obtén referencias a los elementos del DOM
+  const toggleSection4Button = document.getElementById("toggleSection4");
+  const section4Content = document.getElementById("section4Content");
+
+  // Agrega un evento de clic al botón
+  toggleSection4Button.addEventListener("click", () => {
+    // Alternar la clase 'hidden' en la sección de contenido
+    section4Content.classList.toggle("hidden");
+  });
+</script>
+
+<script>
+  // Obtén referencias a los elementos del DOM
+  const toggleSection5Button = document.getElementById("toggleSection5");
+  const section5Content = document.getElementById("section5Content");
+
+  // Agrega un evento de clic al botón
+  toggleSection5Button.addEventListener("click", () => {
+    // Alternar la clase 'hidden' en la sección de contenido
+    section5Content.classList.toggle("hidden");
+  });
+</script>
+
+<script>
+  // Obtén referencias a los elementos del DOM
+  const toggleSection6Button = document.getElementById("toggleSection6");
+  const section6Content = document.getElementById("section6Content");
+
+  // Agrega un evento de clic al botón
+  toggleSection6Button.addEventListener("click", () => {
+    // Alternar la clase 'hidden' en la sección de contenido
+    section6Content.classList.toggle("hidden");
+  });
+</script>
+
+<script>
+  // Obtén referencias a los elementos del DOM
+  const toggleSection7Button = document.getElementById("toggleSection7");
+  const section7Content = document.getElementById("section7Content");
+
+  // Agrega un evento de clic al botón
+  toggleSection7Button.addEventListener("click", () => {
+    // Alternar la clase 'hidden' en la sección de contenido
+    section7Content.classList.toggle("hidden");
+  });
+</script>
+
+
+
+  </body>
 </html>
