@@ -247,7 +247,7 @@ const cardsData = [
     },       
     {         
     id: "elf-san-wa-yaserarenai",       
-    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/Elf-san-wa-Yaserarenai.jpg?raw=true",         
+    imageSrc: "https://cdn.jkdesu.com/assets/images/animes/image/Elf-san-wa-Yaserarenai.jpg?raw=true",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Elf-san wa Yaserarenai",         
