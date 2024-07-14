@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.anime-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100vw;
+    max-width: 100%;
+    transition: transform 0.2s;
+}
+
+.anime-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    
+}
+
+.anime-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.anime-info {
+    margin: 10px 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.anime-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.anime-synopsis {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.chapter-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.chapter-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.chapter-title {
+    font-size: 1.1em;
+    color: #555;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        overflow-y: auto;
+    }
+
+    .anime-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centrar verticalmente */
+        align-items: center; /* Centrar horizontalmente */
+        background-color: #fff;
+        margin: 10px auto 50px; /* Margen hacia abajo de 10px */
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        
+        overflow: hidden;
+        width: 100vw;
+        max-width: 100%;
+        transition: transform 0.2s;
+    }
+
+    .anime-image {
+        width: 100%;
+        height: auto;
+        border-radius: 8px 8px 0 0;
+        
+        display: block; /* Asegura que la imagen se comporte como un bloque */
+        
+    }
+
+    .anime-details {
+        padding: 15px;
+    }
+
+    .anime-title {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+    }
+
+    .anime-info,
+    .anime-synopsis {
+        font-size: 14px;
+        margin: 12px 0;
+    }
+
+    .chapter-cards {
+        gap: 20px;
+    }
+
+    .chapter-card {
+        padding: 20px;
+        font-size: 1.1em;
+    }
+}
