@@ -118,6 +118,20 @@
 });
     });
   </script>
+  <script>
+    // Añade funcionalidad para mostrar/ocultar menú en pantallas pequeñas
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuButton = document.getElementById('menuButton');
+        if(menuButton) {
+            menuButton.addEventListener('click', function () {
+                const navContent = document.getElementById('navContent');
+                if(navContent) {
+                    navContent.classList.toggle('hidden');
+                }
+            });
+        }
+    });
+</script>
   
 </body>
 </html>
