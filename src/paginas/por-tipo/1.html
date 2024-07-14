@@ -1,0 +1,101 @@
+<style>
+  /* Estilos CSS aquí */
+  .anime-card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            display: inline-block;
+            text-align: center;
+        }
+</style>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../todos-los-animes/2024/css/output.css">
+    <link rel="stylesheet" href="../todos-los-animes/2024/css/style.css" />
+    <link rel="stylesheet" href="../todos-los-animes/2024/css/input.css" />
+  </head>
+  <body>
+    <div id="navbar-container"></div><!--barra de navegacion-->
+    <div class="container px-5 py-10 mx-auto"><div class="text-center"><h3 class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Por Tipo</h3></div></div>   
+  <div id="animeCards"></div>
+    <script src="../../../dist/navbar/nav-por-tipo.js"></script>
+    <script>
+      // Añade funcionalidad para mostrar/ocultar menú en pantallas pequeñas
+      document.getElementById('menuButton').addEventListener('click', function () {
+          document.getElementById('navContent').classList.toggle('hidden');
+      });
+  </script>
+  <script>
+    // Datos de anime por tipo
+const animeData = [
+    { title: "Series", link: "series.html" },
+    { title: "Peliculas", link: "peliculas.html" },
+    { title: "Especiales", link: "especiales.html" },
+    { title: "Ovas", link: "ovas.html" },
+    { title: "Onas", link: "onas.html" },
+    // Agrega más datos de anime según sea necesario
+];
+/*
+// Datos de anime por genero
+const animeData = [
+    { title: "genero", genres: ["Acción"], link: "https://example.com/naruto" },
+    { title: "genero", genres: ["Acción", "Aventura"], link: "https://example.com/one-piece" },
+    { title: "genero", genres: ["Comedia", "Acción", "Ciencia ficción"], link: "https://example.com/gintama" },
+    { title: "genero", genres: ["Acción", "Comedia", "Sobrenatural"], link: "https://example.com/one-punch-man" },
+    { title: "genero", genres: ["Acción", "Comedia", "Sobrenatural"], link: "https://example.com/one-punch-man" },
+    // Agrega más datos de anime según sea necesario
+
+*/
+
+// Elementos DOM
+const genreCheckboxes = document.querySelectorAll('input[name="genre"]');
+const animeCardsContainer = document.getElementById("animeCards");
+
+// Función para mostrar las tarjetas de anime según los géneros seleccionados
+function filterAnime() {
+    animeCardsContainer.innerHTML = ""; // Limpiar el contenedor
+
+    const selectedGenres = Array.from(genreCheckboxes)
+        .filter(checkbox => checkbox.checked)
+        .map(checkbox => checkbox.value);
+
+    animeData.forEach(anime => {
+        if (selectedGenres.every(genre => anime.genres.includes(genre))) {
+            const card = createAnimeCard(anime.title, anime.link);
+            animeCardsContainer.appendChild(card);
+        }
+    });
+}
+
+// Función para crear una tarjeta de anime con hipervínculo
+function createAnimeCard(title, link) {
+    const card = document.createElement("div");
+    card.classList.add("anime-card");
+
+    // Crear el elemento de hipervínculo
+    const linkElement = document.createElement("a");
+    linkElement.href = link;
+    linkElement.textContent = title;
+
+    // Agregar el elemento de hipervínculo a la tarjeta
+    card.appendChild(linkElement);
+
+    return card;
+}
+
+// Agregar eventos a los checkboxes para filtrar al cambiar su estado
+genreCheckboxes.forEach(checkbox => {
+    checkbox.addEventListener("change", filterAnime);
+});
+
+// Mostrar todas las tarjetas al cargar la página
+filterAnime();
+
+  </script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../todos-los-animes/2024/css/output.css">
+    <link rel="stylesheet" href="../todos-los-animes/2024/css/style.css" />
+    <link rel="stylesheet" href="../todos-los-animes/2024/css/input.css" />
+  </head>
+
+  <body>
+    <div id="navbar-container"></div><!--barra de navegacion-->
+    <div class="container px-5 py-10 mx-auto">
+      <div class="text-center">
+        <h3
+          class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+        >
+          2023
+        </h3>
+      </div>
+    </div>
+
+    <!-- Sección de tarjetas -->
+    <section class="md:h-full flex items-center text-gray-600">
+      <div id="cardsContainer" class="container mx-auto flex flex-wrap -m-4">
+        <!-- Las tarjetas se insertarán aquí dinámicamente -->
+      </div>
+    </section>
+
+    <script src="../../../dist/navbar/nav-por-tipo.js" defer></script>
+    <script src="peliculas.js"></script>
+    <script>
+      // Añade funcionalidad para mostrar/ocultar menú en pantallas pequeñas
+      document.getElementById('menuButton').addEventListener('click', function () {
+          document.getElementById('navContent').classList.toggle('hidden');
+      });
+  </script>
+  </body>
+</html>
