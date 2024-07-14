@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/input.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="navbar-container"></div><!-- Barra de navegación -->
+    
+    <div class="container px-5 py-10 mx-auto">
+        <div class="text-center">
+            <h3 class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+                2024
+            </h3>
+        </div>
+    </div>
+
+    <!-- Sección de tarjetas -->
+    <div id="cardsContainer" class="container mx-auto p-4 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-2 w-full" 
+    data-card-ids="ookami-to-koushinryou-merchant-meets-the-wise-wolf,tensei-shitara-dainana-ouji-datta-node-kimama-ni-majutsu-wo-kiwamemasu,kami-wa-game-ni-ueteiru,remonster,dekisokonai-to-yobareta-motoeiyuu-wa-jikka-kara-tsuihou-sareta-node-sukikatte-ni-ikiru-koto-ni-shita,shuumatsu-train-doko-e-iku,one-room-hiatari-futsuu-tenshi-tsuki,sand-land-the-series,watashi-no-shiawase-na-kekkon-watashi-no-shiawase-na-katachi,xiao-lu-he-xiao-lan-5th-season,hanhua-riji-4th-season,bai-jia-jue-zhi-jianghu-gui-shi-lu,bu-xing-si-yuan-qi,great-pretender-razbliuto,yishi-zhi-zun,aishang-ta-de-liyou-extra,ninja-kamui,wonderful-precure,kui-cheng-shoufu-cong-youxi-kaishi,taigu-xing-shen-jue,yi-ren-jun-moye,sheng-zu,monsters-ippyaku-sanjou-hiryuu-jigoku,da-yuzhou-shidai,"></div>
+
+    <footer class="bg-gray-800 text-white py-5 mt-10">
+        <div class="container mx-auto flex justify-between items-center px-5">
+            <p class="text-sm">© 2024 Todos los derechos reservados</p>
+            <a href="5.html" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2  mt-2">página anterior</a>
+            <a href="../2024/7.html" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2  mt-2">siguiente página</a>
+        </div>
+    </footer>
+
+    <script src="../../../../dist/navbar/nav-todos-los-animes.js" defer></script>
+    <script src="../js/animes-2024.js"></script>
+    <script>
+        // Añade funcionalidad para mostrar/ocultar menú en pantallas pequeñas
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuButton = document.getElementById('menuButton');
+            if(menuButton) {
+                menuButton.addEventListener('click', function () {
+                    const navContent = document.getElementById('navContent');
+                    if(navContent) {
+                        navContent.classList.toggle('hidden');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

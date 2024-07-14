@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/input.css">
+    <style>
+       
+      </style>
+    <title>Document</title>
+</head>
+<body>
+    <div id="navbar-container"></div><!-- Barra de navegación -->
+    
+    <div class="container px-5 py-10 mx-auto">
+        <div class="text-center">
+            <h3 class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+                2024
+            </h3>
+        </div>
+    </div>
+
+    <!-- Sección de tarjetas -->
+    <div id="cardsContainer" class="container mx-auto flex flex-wrap p-4 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-2 w-full" 
+    data-card-ids="elf-san-wa-yaserarenai,mob-kara-hajimaru-tansaku-eiyuutan,na-nare-hana-nare,tensui-no-sakuna-hime,grendizer-u,monogatari-series-off-monster-season,nierautomata-ver11a-part-2,25-jigen-no-ririsa,kono-sekai-wa-fukanzen-sugiru,dungeon-no-naka-no-hito,cardfight-vanguard-divinez-season-2,gimai-seikatsu,giji-harem,megami-no-cafe-terrace-2nd-season,senpai-wa-otokonoko,hazurewaku-no-joutai-ijou-skill-de-saikyou-ni-natta-ore-ga-subete-wo-juurin-suru-made,tasogare-out-focus,ore-wa-subete-wo-parry-suru-gyaku-kanchigai-no-sekai-saikyou-wa-boukensha-ni-naritai,ramen-akaneko,tokidoki-bosotto-russia-go-de-dereru-tonari-no-alya-san,maougun-saikyou-no-majutsushi-wa-ningen-datta,oshi-no-ko-2nd-season,tasuuketsu,shy-2nd-season,">
+</div>
+    <footer class="bg-gray-800 text-white py-5 mt-10">
+        <div class="container mx-auto flex justify-between items-center px-5">
+            <p class="text-sm">© 2024 Todos los derechos reservados</p>
+            <a href="1.html" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2  mt-2">página anterior</a>
+            <a href="3.html" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2  mt-2">siguiente página</a>
+            
+        </div>
+    </footer>
+
+    <script src="../../../../dist/navbar/nav-todos-los-animes.js" defer></script>
+    <script src="../js/animes-2024.js"></script>
+    <script>
+        // Añade funcionalidad para mostrar/ocultar menú en pantallas pequeñas
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuButton = document.getElementById('menuButton');
+            if(menuButton) {
+                menuButton.addEventListener('click', function () {
+                    const navContent = document.getElementById('navContent');
+                    if(navContent) {
+                        navContent.classList.toggle('hidden');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

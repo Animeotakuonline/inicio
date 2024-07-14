@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/input.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="navbar-container"></div><!-- Barra de navegación -->
+    
+    <div class="container px-5 py-10 mx-auto">
+        <div class="text-center">
+            <h3 class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+                2024
+            </h3>
+        </div>
+    </div>
+
+    <!-- Sección de tarjetas -->
+    <div id="cardsContainer" class="container mx-auto p-4 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-2 w-full" 
+    data-card-ids="meiji-gekken-1874,hikari-no-ou-2nd-season,yami-shibai-12,kingdom-5th-season,bucchigiri,cardfight-vanguard-divinez,wangzhe-rongyao-rongyao-zhi-zhang,meitou-isekai-no-yu-kaitakuki-around-40-onsen-mania-no-tensei-saki-wa-nonbiri-onsen-tengoku-deshita,majo-to-yajuu,urusei-yatsura-2022-2nd-season,saijaku-tamer-wa-gomi-hiroi-no-tabi-wo-hajimemashita,snack-basue,gekkan-mousou-kagaku,yuuki-bakuhatsu-bang-bravern,metallic-rouge,gekai-elise,sengoku-youko,30-sai-made-doutei-dato-mahoutsukai-ni-nareru-rashii,synduality-noir-part-2,akuyaku-reijou-level-99-watashi-wa-ura-boss-desu-ga-maou-dewa-arimasen,shaman-king-flowers,tsuki-ga-michibiku-isekai-douchuu-2nd-season,dosanko-gal-wa-namara-menkoi,oroka-na-tenshi-wa-akuma-to-odoru,"></div>
+    <footer class="bg-gray-800 text-white py-5 mt-10">
+        <div class="container mx-auto flex justify-between items-center px-5">
+            <p class="text-sm">© 2024 Todos los derechos reservados</p>
+            <a href="6.html" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2  mt-2">página anterior</a>
+            <a href="../2024/8.html" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2  mt-2">siguiente página</a>
+        </div>
+    </footer>
+
+    <script src="../../../../dist/navbar/nav-todos-los-animes.js" defer></script>
+    <script src="../js/animes-2024.js"></script>
+    <script>
+        // Añade funcionalidad para mostrar/ocultar menú en pantallas pequeñas
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuButton = document.getElementById('menuButton');
+            if(menuButton) {
+                menuButton.addEventListener('click', function () {
+                    const navContent = document.getElementById('navContent');
+                    if(navContent) {
+                        navContent.classList.toggle('hidden');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.card {
+    /* Common styles for all cards, e.g., padding, border */
+  }
+.card-visto {
+    background-gradient: to-r from-yellow-500 to-yellow-600;
+    text-white
+}
+  .card-por-ver {
+    background-gradient: to-b from-red-500 to-red-600;
+    text-white;
+  }
+  
+  .card-mirando {
+    background-gradient: to-b from-green-500 to-green-600;
+    text-white;
+  }
+  
+  .card-default {
+    background-color: white;
+    text-black;
+  }

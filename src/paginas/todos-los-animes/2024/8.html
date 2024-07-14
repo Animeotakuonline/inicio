@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/input.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="navbar-container"></div><!-- Barra de navegación -->
+    
+    <div class="container px-5 py-10 mx-auto">
+        <div class="text-center">
+            <h3 class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+                2024
+            </h3>
+        </div>
+    </div>
+
+    <!-- Sección de tarjetas -->
+    <div id="cardsContainer" class="container mx-auto p-4 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-2 w-full" 
+    data-card-ids="high-card-season-2,nozomanu-fushi-no-boukensha,himesama-goumon-no-jikan-desu,boku-no-kokoro-no-yabai-yatsu-season-2,ao-no-exorcist-shimane-illuminati-hen,shin-no-nakama-ja-nai-to-yuusha-no-party-wo-oidasareta-node-henkyou-de-slow-life-suru-koto-ni-shimashita-2nd,loop-7-kaime-no-akuyaku-reijou-wa-moto-tekikoku-de-jiyuu-kimama-na-hanayome-seikatsu-wo-mankitsu-suru,kyuujitsu-no-warumono-san,saikyou-tank-no-meikyuu-kouryaku-tairyoku-9999-no-rare-skill-mochi-tank-yuusha-party-wo-tsuihou-sareru,ore-dake-level-up-na-ken,mashle-2nd-season,yubisaki-to-renren,kekkon-yubiwa-monogatari,pon-no-michi,sokushi-cheat-ga-saikyou-sugite-isekai-no-yatsura-ga-marude-aite-ni-naranai-n-desu-ga,chiyu-mahou-no-machigatta-tsukaikata,momochi-san-chi-no-ayakashi-ouji,sasaki-to-pii-chan,chou-futsuu-ken-chiba-densetsu,mato-seihei-no-slave,dungeon-meshi,youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-3rd-season,jaku-chara-tomozaki-kun-2nd-stage,ishura"></div>
+    <footer class="bg-gray-800 text-white py-5 mt-10">
+        <div class="container mx-auto flex justify-between items-center px-5">
+            <p class="text-sm">© 2024 Todos los derechos reservados</p>
+            <a href="7.html" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2  mt-2">página anterior</a>
+            <a href="../2024/9.html" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2  mt-2">siguiente página</a>
+        </div>
+    </footer>
+
+    <script src="../../../../dist/navbar/nav-todos-los-animes.js" defer></script>
+    <script src="../js/animes-2024.js"></script>
+    <script>
+        // Añade funcionalidad para mostrar/ocultar menú en pantallas pequeñas
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuButton = document.getElementById('menuButton');
+            if(menuButton) {
+                menuButton.addEventListener('click', function () {
+                    const navContent = document.getElementById('navContent');
+                    if(navContent) {
+                        navContent.classList.toggle('hidden');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

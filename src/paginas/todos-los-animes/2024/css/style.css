@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    padding: 2rem;
+}
+
+.featured-anime {
+background-color: #f10c0c;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+display: flex;
+margin-bottom: 1rem;
+}
+
+.featured-anime img {
+width: 100%; /* Ajusta el ancho de la imagen destacada */
+height: auto;
+object-fit: cover;
+border-radius: 8px 0 0 8px;
+
+}
+
+.featured-anime-details {
+
+padding: 1rem;
+text-align: left;
+flex-grow: 1;
+display: flex;
+flex-direction: column;
+
+}
+
+.latest-animes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.latest-anime {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.latest-anime img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.latest-anime-details {
+    padding: 1rem;
+    text-align: left;
+}
+
+
+.long-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.long-card-image {
+    width: 40%; /* Ajusta el ancho de la imagen */
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+}
+
+.long-card-details {
+    padding: 1rem;
+    text-align: left;
+    flex-grow: 1;
+}
+
+a
+{
+    color:red;/*solo se mueve este estilo que es para el color de los generos*/
+}
+
+
+
+
+
+
+.card-container {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  @media (max-width: 640px) {
+    .card-title {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 100%;
+      display: inline-block;
+    }
+  }

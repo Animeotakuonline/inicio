@@ -1,0 +1,7 @@
+#search-field {
+    display: none; /* Ocultar el campo de búsqueda por defecto */
+  }
+  
+  #search-field.show {
+    display: block; /* Mostrar el campo de búsqueda cuando se presiona el icono */
+  }
