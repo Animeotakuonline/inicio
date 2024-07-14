@@ -10,7 +10,7 @@ function createNavbar() {
         <a href="../../../../dist/index.html" class="text-white text-lg font-bold">ANIMES</a>
       </div>
 
-      <!-- Botón para desplegar en pantallas pequeñas -->
+      <!-- BotÃ³n para desplegar en pantallas pequeÃ±as -->
       <button
         class="text-white inline-block p-2 hover:bg-gray-700 focus:outline-none md:hidden"
         id="menuButton"
@@ -31,7 +31,7 @@ function createNavbar() {
         </svg>
       </button>
 
-      <!-- Lista desplegable para pantallas pequeñas -->
+      <!-- Lista desplegable para pantallas pequeÃ±as -->
       <div
         class="hidden md:inline-block md:flex md:items-center md:w-auto"
         id="navContent"
@@ -119,10 +119,6 @@ function createNavbar() {
             </button></a
           >
         </div>
-        <!-- Icono de búsqueda -->
-<a href="#" class="text-white hover:text-gray-200">
-  <i class="fas fa-search"></i>
-</a>
       </div>
     </div>
   </nav>   
@@ -131,5 +127,5 @@ function createNavbar() {
     navbarContainer.innerHTML = navbarHTML;
 }
 
-// Llama a la función para crear la barra de navegación
+// Llama a la funciÃ³n para crear la barra de navegaciÃ³n
 createNavbar();
