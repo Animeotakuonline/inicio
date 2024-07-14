@@ -1,7 +1,7 @@
 const cardsData = [
   {         
     id: "monogatari-series-off-monster-season",
-    imageSrc: "../../img/2024/monogatari-series-off-monster-season.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/monogatari-series-off-monster-season.jpg",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Monogatari Series: Off & Monster Season",
@@ -12,7 +12,7 @@ const cardsData = [
     },
     {
     id: "egumi-legacy",
-    imageSrc: "../../img/2024/egumi-legacy.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/egumi-legacy.jpg",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Egumi Legacy",         
@@ -23,7 +23,7 @@ const cardsData = [
     },
     {         
     id: "delicos-nursery",
-    imageSrc: "../../img/2024/delicos-nursery.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/delicos-nursery.jpg",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Delico's Nursery",
@@ -34,7 +34,7 @@ const cardsData = [
     },       
     {
     id: "sengoku-youko-senma-konton-hen",
-    imageSrc: "../../img/2024/sengoku-youko-senma-konton-hen.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/sengoku-youko-senma-konton-hen.jpg",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Sengoku Youko: Senma Konton-hen",
@@ -45,7 +45,7 @@ const cardsData = [
     },       
     {         
     id: "yami-shibai-13",
-    imageSrc: "../../img/2024/yami-shibai-13.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/yami-shibai-13.jpg",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Yami Shibai 13",
@@ -56,7 +56,7 @@ const cardsData = [
     },       
     {         
     id: "atri-my-dear-moments",       
-    imageSrc: "../../img/2024/atri-my-dear-moments.jpg",
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/atri-my-dear-moments.jpg",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: ",
     name: "Atri: My Dear Moments",
@@ -67,7 +67,7 @@ const cardsData = [
     },
     {         
     id: "make-heroine-ga-oosugiru",       
-    imageSrc: "../../img/2024/make-heroine-ga-oosugiru.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/make-heroine-ga-oosugiru.jpg",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Make Heroine ga Oosugiru!",         
@@ -78,7 +78,7 @@ const cardsData = [
     },       
     {         
     id: "kinnikuman-kanpeki-chujin-shiso-hen",       
-    imageSrc: "../../img/2024/kinnikuman-kanpeki-chujin-shiso-hen.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kinnikuman-kanpeki-chujin-shiso-hen.jpg",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Kinnikuman: Kanpeki Chоujin Shiso-hen",         
@@ -89,7 +89,7 @@ const cardsData = [
     },
     {         
     id: "naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka",       
-    imageSrc: "../../img/2024/naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka.jpg",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Naze Boku no Sekai wo Daremo Oboeteinai no ka?",         
@@ -100,7 +100,7 @@ const cardsData = [
     },       
     {         
     id: "bye-bye-earth",       
-    imageSrc: "../../img/2024/bye-bye-earth.jpg",         
+    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/bye-bye-earth.jpg",         
     dateAdded: "2024",         
     dateOfRelease: "Fecha de emisión: ",         
     name: "Bye Bye, Earth",         
@@ -117,7 +117,7 @@ const cardsData = [
     name: "Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen Season II",         
     status: "Estado: ",         
     availability: "Disponible X capitulos",         
-    readMoreLink: "../2024/informacion/kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-season-ii.html",
+    readMoreLink: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-season-ii.html",
     mirando:true,      
     num:"186",       
     },       
