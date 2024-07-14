@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="estilos-acordeon.css" />
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="bg-gray-200">
+  
+  <div id="navbar-container"></div>
+<div id="searchContainer" class="hidden absolute top-0 right-0 mt-12 z-10">
+    <input type="text" id="searchInput" class="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500" placeholder="Buscar...">
+</div>
+  <div class="max-w-screen-lg mx-auto">
+      <br>
+      <div class="bg-white p-4 rounded shadow w-90">
+        <h1 class="text-center font-bold text-2xl ">HORARIO 2024</h1><!--Horario-->
+          <div class="accordion"><div class="accordion-item"><button id="toggleSection1" class="accordion-header">LUNES</button><div id="section1Content" class="accordion-content hidden grid grid-cols-1 md:grid-cols-4 gap-4"><section id="latestAnimesSection1" class="latest-animes"></section></div></div>
+          <div class="accordion-item"><button id="toggleSection2" class="accordion-header">MARTES</button><div id="section2Content" class="accordion-content hidden grid grid-cols-1 md:grid-cols-4 gap-4"><section id="latestAnimesSection2" class="latest-animes"></section></div></div>
+          <div class="accordion-item"><button id="toggleSection3" class="accordion-header">MIERCOLES</button><div id="section3Content" class="accordion-content hidden grid grid-cols-1 md:grid-cols-4 gap-4"><section id="latestAnimesSection3" class="latest-animes"></section></div></div>
+          <div class="accordion-item"><button id="toggleSection4" class="accordion-header">JUEVES</button><div id="section4Content" class="accordion-content hidden grid grid-cols-1 md:grid-cols-4 gap-4"><section id="latestAnimesSection4" class="latest-animes"></section></div></div>
+          <div class="accordion-item"><button id="toggleSection5" class="accordion-header">VIERNES</button><div id="section5Content" class="accordion-content hidden grid grid-cols-1 md:grid-cols-4 gap-4"><section id="latestAnimesSection5" class="latest-animes"></section></div></div>
+          <div class="accordion-item"><button id="toggleSection6" class="accordion-header">SABADO</button><div id="section6Content" class="accordion-content hidden grid grid-cols-1 md:grid-cols-4 gap-4"><section id="latestAnimesSection6" class="latest-animes"></section></div></div>
+          <div class="accordion-item"><button id="toggleSection7" class="accordion-header">DOMINGO</button><div id="section7Content" class="accordion-content hidden grid grid-cols-1 md:grid-cols-4 gap-4"><section id="latestAnimesSection7" class="latest-animes"></section></div></div>
+        </div><!--2-->
+      </div>
+    </div>
+<br>
+<div class="carousel-container">
+    <h3 class="font-bold text-3xl">Continuar</h3>
+    <div class="carousel mt-5">
+    </div>
+    <br>
+    <section style="text-align: center;">
+        <button id="prevBtn" style="background-color: #4CAF50; color: white; width: 100px; ";>Atras</button>
+        <button id="nextBtn" style="background-color: #4CAF50; color: white; width: 100px; ";>siguiente</button>
+    </section>
+</div>
+    <div class="main-content "><!--ultimos vistos-->      
+     <section id="animeCards" class="anime-cards bg-white"></section><p class="font-bold">Ultimas series vistas</p><section id="latestAnimesSection" class="latest-animes"></section>  
+    </div>
+
+    <section class="py-12 bg-gray-100">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-8">Últimas Noticias</h2>
+        <div class="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-6">
+          <!-- Noticia 1 -->
+          <div class="bg-white shadow-md rounded-lg overflow-hidden mb-6"> <!-- Agregar mb-6 para margen inferior -->
+            <img src="../src/paginas/estoy-viendo/img/hbqlrbgWzoPUS2ORqkX0q3sbmib.jpg" alt="Imagen de la noticia 1" class="w-full h-64 object-cover object-center">
+            <div class="p-4">
+              <h3 class="text-xl font-bold mb-2">Título de la Noticia 1</h3>
+              <p class="text-gray-700">Breve descripción de la noticia 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <a href="#" class="block mt-3 text-center bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">Leer más</a>
+            </div>
+          </div>
+      
+          <!-- Noticia 2 -->
+          <div class="bg-white shadow-md rounded-lg overflow-hidden mb-6"> <!-- Agregar mb-6 para margen inferior -->
+            <img src="../src/paginas/estoy-viendo/img/hbqlrbgWzoPUS2ORqkX0q3sbmib.jpg" alt="Imagen de la noticia 2" class="w-full h-64 object-cover object-center">
+            <div class="p-4">
+              <h3 class="text-xl font-bold mb-2">Título de la Noticia 2</h3>
+              <p class="text-gray-700">Breve descripción de la noticia 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <a href="#" class="block mt-3 text-center bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">Leer más</a>
+            </div>
+          </div>
+      
+          <!-- Noticia 3 -->
+          <div class="bg-white shadow-md rounded-lg overflow-hidden mb-6"> <!-- Agregar mb-6 para margen inferior -->
+            <img src="../src/paginas/estoy-viendo/img/hbqlrbgWzoPUS2ORqkX0q3sbmib.jpg" alt="Imagen de la noticia 3" class="w-full h-64 object-cover object-center">
+            <div class="p-4">
+              <h3 class="text-xl font-bold mb-2">Título de la Noticia 3</h3>
+              <p class="text-gray-700">Breve descripción de la noticia 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <a href="#" class="block mt-3 text-center bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">Leer más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <br>
+    <div id="disqus_thread" class="mt-10"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://httpa-www-animeotakuonline-xyz.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
+
+
+
+    <p id="contador"  class="text-lg font-semibold text-blue-500 text-center"></p><!--contador-->
+    <script src="contador-web.js"></script>
+    <script src="acordeon.js"></script>
+    <script src="mirando.js"></script>
+    <!--<script src="nav-prueba.js"></script>-->
+    <script src="nav.js"></script>
+    <script src="boton-hamburguesa.js"></script>
+    <script src="carrucel.js"></script>
+    <script src="search.js"></script>
+    <script>
+      // Establecer el enfoque en el campo de búsqueda si está vacío al cargar la página
+      document.addEventListener('DOMContentLoaded', function() {
+        const searchInput = document.getElementById('searchInput');
+        if (searchInput.value === '') {
+          searchInput.focus();
+        }
+      });
+    </script>
+    <script id="dsq-count-scr" src="//httpa-www-animeotakuonline-xyz.disqus.com/count.js" async></script>
+  </body>
+</html>

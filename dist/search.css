@@ -1,0 +1,10 @@
+#searchContainer {
+    width: 70%;
+    margin: 10px auto;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+}

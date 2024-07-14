@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    padding: 2rem;
+}
+
+.featured-anime {
+background-color: #f10c0c;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+display: flex;
+margin-bottom: 1rem;
+}
+
+.featured-anime img {
+width: 100%; /* Ajusta el ancho de la imagen destacada */
+height: auto;
+object-fit: cover;
+border-radius: 8px 0 0 8px;
+
+}
+
+.featured-anime-details {
+
+padding: 1rem;
+text-align: left;
+flex-grow: 1;
+display: flex;
+flex-direction: column;
+
+}
+
+.latest-animes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.latest-anime {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.latest-anime img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.latest-anime-details {
+    padding: 1rem;
+    text-align: left;
+}
+
+@media (max-width: 767px) {
+    .long-card {
+        flex-direction: row; /* Cambia la dirección de flexión para apilar elementos en pantallas pequeñas */
+    }
+
+    .long-card img {
+        order: 1; /* Mantener el orden original de la imagen */
+        width: 100%; /* La imagen ocupará exactamente la mitad del ancho en pantallas pequeñas */
+        border-radius: 8px 0 0 8px; /* Ajusta los bordes de la imagen */
+    }
+
+    .long-card-details {
+        order: 2; /* Mantener el orden original de los detalles */
+        width: 100%; /* Los detalles ocuparán exactamente la mitad del ancho en pantallas pequeñas */
+        flex: initial; /* Reinicia la propiedad flex para que los detalles no ocupen el espacio restante */
+        border-radius: 0 8px 8px 0; /* Ajusta los bordes de los detalles */
+    }
+}
+.long-card-details h3 {
+    /* Estilos para el título */
+    margin-top: 0;
+}
+
+.long-card-details a {
+    /* Estilos para el enlace "Ver más" */
+    color: blue;
+    text-decoration: none;
+}
+
+
+

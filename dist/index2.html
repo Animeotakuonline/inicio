@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'">
+  <title>Mi Página</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="estilos-acordeon.css" />
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="window.css">
+</head>
+<body class="bg-gray-200">
+  <div id="navbar-container"></div><!--barra de navegacion-->
+  <div id="navbar-container"></div>
+<div id="searchContainer" class="hidden absolute top-0 right-0 mt-12 z-10">
+    <input type="text" id="searchInput" class="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500" placeholder="Buscar...">
+</div>
+
+    <br>
+    <p id="contador"  class="text-lg font-semibold text-blue-500 text-center"></p><!--contador-->
+
+    <script src="nav.js"></script>
+    <script src="boton-hamburguesa.js"></script>
+    <script src="search.js"></script>
+
+    <script>
+      // Establecer el enfoque en el campo de búsqueda si está vacío al cargar la página
+      document.addEventListener('DOMContentLoaded', function() {
+        const searchInput = document.getElementById('searchInput');
+        if (searchInput.value === '') {
+          searchInput.focus();
+        }
+      });
+    </script>
+    
+  </body>
+</html>
