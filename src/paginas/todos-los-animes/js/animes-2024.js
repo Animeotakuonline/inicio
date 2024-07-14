@@ -720,7 +720,7 @@ const cardsData = [
             
     {
     id:"kimetsu-no-yaiba-hashira-geiko-hen",  
-    imageSrc: "https://github.com/Animeotakuonline/inicio/blob/main/src/paginas/img/2024/kimetsu-no-yaiba-hashira-geiko-hen.jpg?raw=true",
+    imageSrc: "https://cdn.jkdesu.com/assets/images/animes/image/kimetsu-no-yaiba-hashira-geiko-hen.jpg",
     dateAdded: "2024",
     dateOfRelease: "Fecha de emisión: 12 de mayo del 2024",
     name: "Kimetsu no Yaiba: Hashira Geiko-hen",
