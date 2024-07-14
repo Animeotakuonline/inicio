@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/estilos-acordeon.css" />
+  </head>
+
+  <body>
+    <div id="navbar-container"></div><!--barra de navegacion-->
+    <div class="container px-5 py-10 mx-auto">
+      <div class="text-center">
+        <h3
+          class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+        >
+          2024
+        </h3>
+      </div>
+    </div>
+
+    <!-- Sección de tarjetas -->
+    <div id="cardsContainer" class="container mx-auto p-4 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-2 w-full" 
+    data-card-ids="ai-no-idenshi,cardfight-vanguard-willdress-season-3,shadowverse-flame-seven-shadows-hen,sugar-apple-fairy-tale-part-2,hyakushou-kizoku,jujutsu-kaisen-2nd-season,rurouni-kenshin-meiji-kenkaku-romantan-2023,higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu,seija-musou-salaryman-isekai-de-ikinokoru-tame-ni-ayumu-michi,watashi-no-shiawase-na-kekkon,jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou,undead-girl-murder-farce,suki-na-ko-ga-megane-wo-wasureta,yumemiru-danshi-wa-genjitsushugisha,okashi-na-tensei,mononogatari-2nd-season,wu-nao-monu,masamune-kun-no-revenge-r,mushoku-tensei-ii-isekai-ittara-honki-dasu,fatestrange-fake-whispers-of-dawn,ququ-bucai-zaixia-yeguai-2nd-season,feng-ling-yu-xiu-2nd-season,horimiya-piece,uchi-no-kaisha-no-chiisai-senpai-no-hanashi,"></div>
+    <footer class="bg-gray-800 text-white py-5 mt-10">
+      <div class="container mx-auto flex justify-between items-center px-5">
+          <p class="text-sm">© 2024 Todos los derechos reservados</p>
+          <a href="5.html" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2  mt-2">página anterior</a>
+          <a href="7.html" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2  mt-2">siguiente página</a>
+      </div>
+  </footer>
+    
+    
+    <script src="../js/animes-2023.js" defer></script>
+    <script src="../../../../dist/navbar/nav-todos-los-animes.js"></script>
+    <script>
+      // Añade funcionalidad para mostrar/ocultar menú en pantallas pequeñas
+      document.getElementById('menuButton').addEventListener('click', function () {
+          document.getElementById('navContent').classList.toggle('hidden');
+      });
+  </script>
+  </body>
+</html>
